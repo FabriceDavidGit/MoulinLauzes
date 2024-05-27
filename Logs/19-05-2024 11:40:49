@@ -1,0 +1,668 @@
+19-05-2024 11:40:49 - capt_bas_moulin : 0 
+INFO:__main__:19-05-2024 11:40:49 - capt_bas_moulin : 0 
+19-05-2024 11:40:49 - sign_ext_son : 0 
+INFO:__main__:19-05-2024 11:40:49 - sign_ext_son : 0 
+19-05-2024 11:40:49 - capt_rot_blute : 0 
+INFO:__main__:19-05-2024 11:40:49 - capt_rot_blute : 0 
+19-05-2024 11:40:49 - inter_shunt_secu : 0 
+INFO:__main__:19-05-2024 11:40:49 - inter_shunt_secu : 0 
+19-05-2024 11:40:49 - capt_ensach : 1 
+INFO:__main__:19-05-2024 11:40:49 - capt_ensach : 1 
+19-05-2024 11:40:49 - run_powerflex : 0 
+INFO:__main__:19-05-2024 11:40:49 - run_powerflex : 0 
+19-05-2024 11:40:49 - moteur_succion : 0 
+INFO:__main__:19-05-2024 11:40:49 - moteur_succion : 0 
+19-05-2024 11:40:49 - moteur_son : 0 
+INFO:__main__:19-05-2024 11:40:49 - moteur_son : 0 
+19-05-2024 11:40:49 - battage : 0 
+INFO:__main__:19-05-2024 11:40:49 - battage : 0 
+19-05-2024 11:40:49 - out_sign_son : 0 
+INFO:__main__:19-05-2024 11:40:49 - out_sign_son : 0 
+19-05-2024 11:40:49 - moteur_bluterie : 0 
+INFO:__main__:19-05-2024 11:40:49 - moteur_bluterie : 0 
+19-05-2024 11:40:49 - courrant_meule : 0.0 A
+INFO:__main__:19-05-2024 11:40:49 - courrant_meule : 0.0 A
+19-05-2024 11:40:49 - stop_powerflex_true : 1 
+INFO:__main__:19-05-2024 11:40:49 - stop_powerflex_true : 1 
+19-05-2024 11:40:49 - stop_powerflex : 0 
+INFO:__main__:19-05-2024 11:40:49 - stop_powerflex : 0 
+19-05-2024 11:40:49 - start_poxerflex : 0 
+INFO:__main__:19-05-2024 11:40:49 - start_poxerflex : 0 
+19-05-2024 11:40:49 - start_bluterie : 0 
+INFO:__main__:19-05-2024 11:40:49 - start_bluterie : 0 
+19-05-2024 11:40:49 - current_meule : 0.0 A
+INFO:__main__:19-05-2024 11:40:49 - current_meule : 0.0 A
+19-05-2024 11:40:49 - t_meule : 19 °C
+INFO:__main__:19-05-2024 11:40:49 - t_meule : 19 °C
+19-05-2024 11:40:49 - capt_rot_blut : 0 
+INFO:__main__:19-05-2024 11:40:49 - capt_rot_blut : 0 
+19-05-2024 11:40:49 - alarm_entret : 1 
+INFO:__main__:19-05-2024 11:40:49 - alarm_entret : 1 
+19-05-2024 11:40:49 - horametre : 1 
+INFO:__main__:19-05-2024 11:40:49 - horametre : 1 
+19-05-2024 11:40:49 - retour_freq_meule : 0.0 
+INFO:__main__:19-05-2024 11:40:49 - retour_freq_meule : 0.0 
+19-05-2024 11:40:49 - stop_powerflex_vibrat : 1 
+INFO:__main__:19-05-2024 11:40:49 - stop_powerflex_vibrat : 1 
+19-05-2024 11:40:49 - reg_intens_meule : 2.95 A
+INFO:__main__:19-05-2024 11:40:49 - reg_intens_meule : 2.95 A
+19-05-2024 11:40:49 - capt_ensach_alarm : 0 
+INFO:__main__:19-05-2024 11:40:49 - capt_ensach_alarm : 0 
+19-05-2024 11:40:49 - capt_bas_alarm : 0 
+INFO:__main__:19-05-2024 11:40:49 - capt_bas_alarm : 0 
+19-05-2024 11:40:49 - intensite_meule : 0 
+INFO:__main__:19-05-2024 11:40:49 - intensite_meule : 0 
+19-05-2024 11:40:49 - arret_vibra : 0 
+INFO:__main__:19-05-2024 11:40:49 - arret_vibra : 0 
+19-05-2024 11:40:49 - succion_force : 0 
+INFO:__main__:19-05-2024 11:40:49 - succion_force : 0 
+19-05-2024 11:40:49 - vibra_eleve : 0 
+INFO:__main__:19-05-2024 11:40:49 - vibra_eleve : 0 
+19-05-2024 11:40:49 - vidan_trem : 0 
+INFO:__main__:19-05-2024 11:40:49 - vidan_trem : 0 
+19-05-2024 11:40:49 - speed_ref_vibrat : 0.0 Hz
+INFO:__main__:19-05-2024 11:40:49 - speed_ref_vibrat : 0.0 Hz
+19-05-2024 11:40:49 - start_powerflex_vibrat : 0 
+INFO:__main__:19-05-2024 11:40:49 - start_powerflex_vibrat : 0 
+19-05-2024 11:40:49 - cv_manuel : 13.0 Hz
+INFO:__main__:19-05-2024 11:40:49 - cv_manuel : 13.0 Hz
+-------------------------------------------------------
+WARNING:__main__:-------------------------------------------------------
+Fin du Fichier de Logs du 19-05-2024 11:40:49 
+WARNING:__main__:Fin du Fichier de Logs du 19-05-2024 11:40:49 
+DEBUG:botocore.hooks:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+DEBUG:botocore.hooks:Changing event name from before-call.apigateway to before-call.api-gateway
+DEBUG:botocore.hooks:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+DEBUG:botocore.hooks:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+DEBUG:botocore.hooks:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+DEBUG:botocore.loaders:Loading JSON file: /home/ubuntu/.venv/lib/python3.12/site-packages/boto3/data/s3/2006-03-01/resources-1.json
+DEBUG:botocore.utils:IMDS ENDPOINT: http://169.254.169.254/
+DEBUG:botocore.credentials:Looking for credentials via: env
+DEBUG:botocore.credentials:Looking for credentials via: assume-role
+DEBUG:botocore.credentials:Looking for credentials via: assume-role-with-web-identity
+DEBUG:botocore.credentials:Looking for credentials via: sso
+DEBUG:botocore.credentials:Looking for credentials via: shared-credentials-file
+DEBUG:botocore.credentials:Looking for credentials via: custom-process
+DEBUG:botocore.credentials:Looking for credentials via: config-file
+DEBUG:botocore.credentials:Looking for credentials via: ec2-credentials-file
+DEBUG:botocore.credentials:Looking for credentials via: boto-config
+DEBUG:botocore.credentials:Looking for credentials via: container-role
+DEBUG:botocore.credentials:Looking for credentials via: iam-role
+INFO:botocore.credentials:Found credentials from IAM Role: LabRole
+DEBUG:botocore.loaders:Loading JSON file: /home/ubuntu/.venv/lib/python3.12/site-packages/botocore/data/endpoints.json
+DEBUG:botocore.loaders:Loading JSON file: /home/ubuntu/.venv/lib/python3.12/site-packages/botocore/data/sdk-default-configuration.json
+DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x7367abc27e20>
+DEBUG:botocore.loaders:Loading JSON file: /home/ubuntu/.venv/lib/python3.12/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ubuntu/.venv/lib/python3.12/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ubuntu/.venv/lib/python3.12/site-packages/botocore/data/partitions.json
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7367abd4e160>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7367aadaec00>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7367abd4dee0>
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_global
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_global
+DEBUG:botocore.configprovider:No configured endpoint found.
+DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+DEBUG:botocore.loaders:Loading JSON file: /home/ubuntu/.venv/lib/python3.12/site-packages/botocore/data/_retry.json
+DEBUG:botocore.client:Registering retry handlers for service: s3
+DEBUG:botocore.utils:Registering S3 region redirector handler
+DEBUG:botocore.utils:Registering S3Express Identity Resolver
+DEBUG:boto3.resources.factory:Loading s3:s3
+DEBUG:boto3.resources.factory:Loading s3:Bucket
+DEBUG:boto3.resources.model:Renaming Bucket attribute name
+DEBUG:botocore.hooks:Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x7367ac9c6340>
+DEBUG:boto3.resources.action:Calling s3:put_object with {'Bucket': 'moulinlauzes', 'Key': '19-05-2024 11:40:49-ml.log', 'Body': <_io.BufferedReader name='19-05-2024 11:40:49-ml.log'>}
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x7367abc36840>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x7367abc35b20>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x7367abc37240>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x7367abc35a80>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x7367abc37c40>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x7367aae1f620>>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x7367a989e150>>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x7367abc358a0>
+DEBUG:botocore.hooks:Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7367abc37e20>
+DEBUG:botocore.hooks:Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x7367aae1f620>>
+DEBUG:botocore.regions:Calling endpoint provider with parameters: {'Bucket': 'moulinlauzes', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '19-05-2024 11:40:49-ml.log', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+DEBUG:botocore.regions:Endpoint provider result: https://moulinlauzes.s3.amazonaws.com
+DEBUG:botocore.regions:Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+DEBUG:botocore.regions:Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function conditionally_calculate_checksum at 0x7367abed3ec0>
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x7367abc35e40>
+DEBUG:botocore.handlers:Adding expect 100 continue header to request.
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x7367aae1fbf0>>
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x7367abc34d60>
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x7367abc37380>
+DEBUG:botocore.endpoint:Making request for OperationModel(name=PutObject) with params: {'url_path': '/19-05-2024%2011%3A40%3A49-ml.log', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.34.105 md/Botocore#1.34.105 ua/2.0 os/linux#6.8.0-1008-aws md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.105 Resource', 'Content-MD5': 'akQxbHLn4TOvuFHh28PahQ==', 'Expect': '100-continue'}, 'body': <_io.BufferedReader name='19-05-2024 11:40:49-ml.log'>, 'auth_path': '/moulinlauzes/19-05-2024%2011%3A40%3A49-ml.log', 'url': 'https://moulinlauzes.s3.amazonaws.com/19-05-2024%2011%3A40%3A49-ml.log', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x7367a9dedf70>, 'has_streaming_input': True, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'moulinlauzes', 'params': {'Bucket': 'moulinlauzes', 'Key': '19-05-2024 11:40:49-ml.log', 'Body': <_io.BufferedReader name='19-05-2024 11:40:49-ml.log'>}}, 'input_params': {'Bucket': 'moulinlauzes', 'Key': '19-05-2024 11:40:49-ml.log'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7367a9dede20>>
+DEBUG:botocore.hooks:Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7367a989e150>>
+DEBUG:botocore.hooks:Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x7367abc35760>
+DEBUG:botocore.hooks:Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x7367abc37d80>
+DEBUG:botocore.hooks:Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7367aae1fbf0>>
+DEBUG:botocore.auth:Calculating signature using v4 auth.
+DEBUG:botocore.auth:CanonicalRequest:
+PUT
+/19-05-2024%2011%3A40%3A49-ml.log
+
+content-md5:akQxbHLn4TOvuFHh28PahQ==
+host:moulinlauzes.s3.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20240519T094101Z
+x-amz-security-token:IQoJb3JpZ2luX2VjEJn//////////wEaCXVzLWVhc3QtMSJHMEUCIGcjXO9JID0Apnqnyk4Ct6Dy+Ja+RUP1U5b2GJBuunqdAiEA7hzhspb6WY2Prg6HpJ+R03zXsj9VarHkgO6CPol/3cMquwUIEhAAGgw3NzY3NzI1MjAyODUiDMOnxWZbUQDQ/kFQVSqYBe/IeVTkecvpkNcLqIJn/2bPccR3+H/XCXntxNLNDGJWGjwmw3nGWaF/Jaql3u6DvQgqFKMv0PhVm/4omvVqfOHmWI/r4VcCluIinDyftMBve3oBRxlSgCvCHJGzGu7qwtkXpOWGrz7PVyvx+OcwYm1fUr821GJy6Wop0381nN2PUDovL2kWDEm1uIHSxunsHQAdPOyUkDbdlfMO3BUE4sHrJL8tyclrjwRfznXA2J9D85DHEyLDbugpoiLIZli7HYB4Po+MnUx4xK4FWl+i2GN/aMzUNZX2kqMLRMIsFHBG0yohkgTUso2nD1LZwlkjwkDl6IZqYDQHbo13R9i9pGoQM1CnPHwGIt9mQjFi+VULWpc5beM7pBM3C6SbZAs549NTEqUFnVVq1ihAOulyYt4vmVbXTaJTJqmi3Et2DP4KMaI/DrevjMpIthxpz8CRWMUDZmZJNoUOZt4Bz5YBLosP4elAuveiORwTuclu2fOWhMmkudleDGpK2aQhbxxuzpR2XWmjhjGNoCmA/0khoRg0+mrGMVHIOsW6Y8x+8Xsnq6ceRqo1rZVYEmouiXjzuHzRsDxS4DnHmTy91KxO+OzTipvrwOvJhTt41aQlp3xYVQNNtLviaBM89PQ827r5zdj58lHZBjmG+fyblUsqeyhW/XGXA9/LR+fYSWgvAT+s2OpedS/rjsf+lTaddyUeMPBnPHFgcX2LYl9DeovOQ2bBfCRNPeEF4qJleHixofvbUbZQ822aHMbhUGsbnAw82jiSbYPglSooU3hRxUnEV9TcZ1vR/c5Mou7Nj2hzKsERzJizVG0oGFYK3qSQCmJxawwYDSCicY6Z91CmG+vxCcrMjQjs91o2pYUL3Gym2HCda36tcATHKHowlICnsgY6sQHGQFgyW/8tjdPR/NJqCjTzHkeInaUD3FjtCYAAC1GdUimxldc2kr47iRmiY5e1hcz9yKEc9cSlrXwuG4uXjZ5uWeUym7GCZEN04He6iGEDmXo3CkMJbFMsGeEw34YWgbhYHX0Kwy97n6Ez8Jpdpy161NQeuUPQj98g1XYBfnNvMxDJWTvRaQWwGI9gmTAU/cqU3JYJF7kjvAmdbLpdaHQWrYtrcWw7CwkIEfSyKkmwkrM=
+
+content-md5;host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+UNSIGNED-PAYLOAD
+DEBUG:botocore.auth:StringToSign:
+AWS4-HMAC-SHA256
+20240519T094101Z
+20240519/us-east-1/s3/aws4_request
+09ce6e9dbbdcde8b2649eb952a57ed13e23a621df50ca967d6f6bf309114a408
+DEBUG:botocore.auth:Signature:
+6621600c47e221d84951bc9edd4f25d79419366c65647a4c48274760f96954a3
+DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x7367abc37ba0>
+DEBUG:botocore.endpoint:Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://moulinlauzes.s3.amazonaws.com/19-05-2024%2011%3A40%3A49-ml.log, headers={'User-Agent': b'Boto3/1.34.105 md/Botocore#1.34.105 ua/2.0 os/linux#6.8.0-1008-aws md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.105 Resource', 'Content-MD5': b'akQxbHLn4TOvuFHh28PahQ==', 'Expect': b'100-continue', 'X-Amz-Date': b'20240519T094101Z', 'X-Amz-Security-Token': b'IQoJb3JpZ2luX2VjEJn//////////wEaCXVzLWVhc3QtMSJHMEUCIGcjXO9JID0Apnqnyk4Ct6Dy+Ja+RUP1U5b2GJBuunqdAiEA7hzhspb6WY2Prg6HpJ+R03zXsj9VarHkgO6CPol/3cMquwUIEhAAGgw3NzY3NzI1MjAyODUiDMOnxWZbUQDQ/kFQVSqYBe/IeVTkecvpkNcLqIJn/2bPccR3+H/XCXntxNLNDGJWGjwmw3nGWaF/Jaql3u6DvQgqFKMv0PhVm/4omvVqfOHmWI/r4VcCluIinDyftMBve3oBRxlSgCvCHJGzGu7qwtkXpOWGrz7PVyvx+OcwYm1fUr821GJy6Wop0381nN2PUDovL2kWDEm1uIHSxunsHQAdPOyUkDbdlfMO3BUE4sHrJL8tyclrjwRfznXA2J9D85DHEyLDbugpoiLIZli7HYB4Po+MnUx4xK4FWl+i2GN/aMzUNZX2kqMLRMIsFHBG0yohkgTUso2nD1LZwlkjwkDl6IZqYDQHbo13R9i9pGoQM1CnPHwGIt9mQjFi+VULWpc5beM7pBM3C6SbZAs549NTEqUFnVVq1ihAOulyYt4vmVbXTaJTJqmi3Et2DP4KMaI/DrevjMpIthxpz8CRWMUDZmZJNoUOZt4Bz5YBLosP4elAuveiORwTuclu2fOWhMmkudleDGpK2aQhbxxuzpR2XWmjhjGNoCmA/0khoRg0+mrGMVHIOsW6Y8x+8Xsnq6ceRqo1rZVYEmouiXjzuHzRsDxS4DnHmTy91KxO+OzTipvrwOvJhTt41aQlp3xYVQNNtLviaBM89PQ827r5zdj58lHZBjmG+fyblUsqeyhW/XGXA9/LR+fYSWgvAT+s2OpedS/rjsf+lTaddyUeMPBnPHFgcX2LYl9DeovOQ2bBfCRNPeEF4qJleHixofvbUbZQ822aHMbhUGsbnAw82jiSbYPglSooU3hRxUnEV9TcZ1vR/c5Mou7Nj2hzKsERzJizVG0oGFYK3qSQCmJxawwYDSCicY6Z91CmG+vxCcrMjQjs91o2pYUL3Gym2HCda36tcATHKHowlICnsgY6sQHGQFgyW/8tjdPR/NJqCjTzHkeInaUD3FjtCYAAC1GdUimxldc2kr47iRmiY5e1hcz9yKEc9cSlrXwuG4uXjZ5uWeUym7GCZEN04He6iGEDmXo3CkMJbFMsGeEw34YWgbhYHX0Kwy97n6Ez8Jpdpy161NQeuUPQj98g1XYBfnNvMxDJWTvRaQWwGI9gmTAU/cqU3JYJF7kjvAmdbLpdaHQWrYtrcWw7CwkIEfSyKkmwkrM=', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=ASIA3JW2ABFOSKVFSGD6/20240519/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=6621600c47e221d84951bc9edd4f25d79419366c65647a4c48274760f96954a3', 'amz-sdk-invocation-id': b'81f9731a-9c9d-41c0-8054-17e3a24d8fae', 'amz-sdk-request': b'attempt=1', 'Content-Length': '3592'}>
+DEBUG:botocore.httpsession:Certificate path: /home/ubuntu/.venv/lib/python3.12/site-packages/certifi/cacert.pem
+DEBUG:botocore.awsrequest:Waiting for 100 Continue response.
+DEBUG:botocore.awsrequest:100 Continue response seen, now sending request body.
+DEBUG:botocore.parsers:Response headers: {'x-amz-id-2': 'nmlVowsFpTPfhjpq7t2qn8LlAhQYpvZydde45HOo3pVp4hoGcGLuPJdbPZVm0IPpbwzRu2BA76Bfaa/xKWkq9fbE3GyQkc8JoRZ2PFmNd+8=', 'x-amz-request-id': 'GEBFX49AHPDYPJW2', 'Date': 'Sun, 19 May 2024 09:41:02 GMT', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"6a44316c72e7e133afb851e1dbc3da85"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+DEBUG:botocore.parsers:Response body:
+b''
+DEBUG:botocore.hooks:Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7367aae1fbc0>
+DEBUG:botocore.retryhandler:No retry needed.
+DEBUG:botocore.hooks:Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x7367aae1f620>>
+DEBUG:boto3.resources.action:Response: {'ResponseMetadata': {'RequestId': 'GEBFX49AHPDYPJW2', 'HostId': 'nmlVowsFpTPfhjpq7t2qn8LlAhQYpvZydde45HOo3pVp4hoGcGLuPJdbPZVm0IPpbwzRu2BA76Bfaa/xKWkq9fbE3GyQkc8JoRZ2PFmNd+8=', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': 'nmlVowsFpTPfhjpq7t2qn8LlAhQYpvZydde45HOo3pVp4hoGcGLuPJdbPZVm0IPpbwzRu2BA76Bfaa/xKWkq9fbE3GyQkc8JoRZ2PFmNd+8=', 'x-amz-request-id': 'GEBFX49AHPDYPJW2', 'date': 'Sun, 19 May 2024 09:41:02 GMT', 'x-amz-server-side-encryption': 'AES256', 'etag': '"6a44316c72e7e133afb851e1dbc3da85"', 'server': 'AmazonS3', 'content-length': '0'}, 'RetryAttempts': 0}, 'ETag': '"6a44316c72e7e133afb851e1dbc3da85"', 'ServerSideEncryption': 'AES256'}
+DEBUG:boto3.resources.factory:Loading s3:Object
+DEBUG:botocore.hooks:Event creating-resource-class.s3.Object: calling handler <function lazy_call.<locals>._handler at 0x7367ac9c62a0>
+INFO:__main__:19-05-2024 11:41:01 - capt_bas_moulin : 0 
+INFO:__main__:19-05-2024 11:41:01 - sign_ext_son : 0 
+INFO:__main__:19-05-2024 11:41:01 - capt_rot_blute : 0 
+INFO:__main__:19-05-2024 11:41:01 - inter_shunt_secu : 0 
+INFO:__main__:19-05-2024 11:41:01 - capt_ensach : 1 
+INFO:__main__:19-05-2024 11:41:01 - run_powerflex : 0 
+INFO:__main__:19-05-2024 11:41:01 - moteur_succion : 0 
+INFO:__main__:19-05-2024 11:41:01 - moteur_son : 0 
+INFO:__main__:19-05-2024 11:41:01 - battage : 0 
+INFO:__main__:19-05-2024 11:41:01 - out_sign_son : 0 
+INFO:__main__:19-05-2024 11:41:01 - moteur_bluterie : 0 
+INFO:__main__:19-05-2024 11:41:01 - courrant_meule : 0.0 A
+INFO:__main__:19-05-2024 11:41:01 - stop_powerflex_true : 1 
+INFO:__main__:19-05-2024 11:41:01 - stop_powerflex : 0 
+INFO:__main__:19-05-2024 11:41:01 - start_poxerflex : 0 
+INFO:__main__:19-05-2024 11:41:01 - start_bluterie : 0 
+INFO:__main__:19-05-2024 11:41:01 - current_meule : 0.0 A
+INFO:__main__:19-05-2024 11:41:01 - t_meule : 19 °C
+INFO:__main__:19-05-2024 11:41:01 - capt_rot_blut : 0 
+INFO:__main__:19-05-2024 11:41:01 - alarm_entret : 1 
+INFO:__main__:19-05-2024 11:41:01 - horametre : 1 
+INFO:__main__:19-05-2024 11:41:01 - retour_freq_meule : 0.0 
+INFO:__main__:19-05-2024 11:41:01 - stop_powerflex_vibrat : 1 
+INFO:__main__:19-05-2024 11:41:01 - reg_intens_meule : 2.95 A
+INFO:__main__:19-05-2024 11:41:01 - capt_ensach_alarm : 0 
+INFO:__main__:19-05-2024 11:41:01 - capt_bas_alarm : 0 
+INFO:__main__:19-05-2024 11:41:01 - intensite_meule : 0 
+INFO:__main__:19-05-2024 11:41:01 - arret_vibra : 0 
+INFO:__main__:19-05-2024 11:41:01 - succion_force : 0 
+INFO:__main__:19-05-2024 11:41:01 - vibra_eleve : 0 
+INFO:__main__:19-05-2024 11:41:01 - vidan_trem : 0 
+INFO:__main__:19-05-2024 11:41:01 - speed_ref_vibrat : 0.0 Hz
+INFO:__main__:19-05-2024 11:41:01 - start_powerflex_vibrat : 0 
+INFO:__main__:19-05-2024 11:41:01 - cv_manuel : 13.0 Hz
+WARNING:__main__:-------------------------------------------------------
+WARNING:__main__:Fin du Fichier de Logs du 19-05-2024 11:41:01 
+DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x7367abc27e20>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7367abd4e160>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7367aadaec00>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7367abd4dee0>
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_global
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_global
+DEBUG:botocore.configprovider:No configured endpoint found.
+DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+DEBUG:botocore.client:Registering retry handlers for service: s3
+DEBUG:botocore.utils:Registering S3 region redirector handler
+DEBUG:botocore.utils:Registering S3Express Identity Resolver
+DEBUG:boto3.resources.factory:Loading s3:s3
+DEBUG:boto3.resources.factory:Loading s3:Bucket
+DEBUG:boto3.resources.model:Renaming Bucket attribute name
+DEBUG:botocore.hooks:Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x7367ac9c6340>
+DEBUG:boto3.resources.action:Calling s3:put_object with {'Bucket': 'moulinlauzes', 'Key': '19-05-2024 11:41:01-ml.log', 'Body': <_io.BufferedReader name='19-05-2024 11:41:01-ml.log'>}
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x7367abc36840>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x7367abc35b20>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x7367abc37240>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x7367abc35a80>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x7367abc37c40>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x7367acc86ed0>>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x7367aae07ec0>>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x7367abc358a0>
+DEBUG:botocore.hooks:Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7367abc37e20>
+DEBUG:botocore.hooks:Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x7367acc86ed0>>
+DEBUG:botocore.regions:Calling endpoint provider with parameters: {'Bucket': 'moulinlauzes', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '19-05-2024 11:41:01-ml.log', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+DEBUG:botocore.regions:Endpoint provider result: https://moulinlauzes.s3.amazonaws.com
+DEBUG:botocore.regions:Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+DEBUG:botocore.regions:Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function conditionally_calculate_checksum at 0x7367abed3ec0>
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x7367abc35e40>
+DEBUG:botocore.handlers:Adding expect 100 continue header to request.
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x7367aa5b2f60>>
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x7367abc34d60>
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x7367abc37380>
+DEBUG:botocore.endpoint:Making request for OperationModel(name=PutObject) with params: {'url_path': '/19-05-2024%2011%3A41%3A01-ml.log', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.34.105 md/Botocore#1.34.105 ua/2.0 os/linux#6.8.0-1008-aws md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.105 Resource', 'Content-MD5': 'tew0ef0Ow+1tvvwlMDq0Mw==', 'Expect': '100-continue'}, 'body': <_io.BufferedReader name='19-05-2024 11:41:01-ml.log'>, 'auth_path': '/moulinlauzes/19-05-2024%2011%3A41%3A01-ml.log', 'url': 'https://moulinlauzes.s3.amazonaws.com/19-05-2024%2011%3A41%3A01-ml.log', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x7367aa54e240>, 'has_streaming_input': True, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'moulinlauzes', 'params': {'Bucket': 'moulinlauzes', 'Key': '19-05-2024 11:41:01-ml.log', 'Body': <_io.BufferedReader name='19-05-2024 11:41:01-ml.log'>}}, 'input_params': {'Bucket': 'moulinlauzes', 'Key': '19-05-2024 11:41:01-ml.log'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7367aa54e2a0>>
+DEBUG:botocore.hooks:Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7367aae07ec0>>
+DEBUG:botocore.hooks:Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x7367abc35760>
+DEBUG:botocore.hooks:Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x7367abc37d80>
+DEBUG:botocore.hooks:Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7367aa5b2f60>>
+DEBUG:botocore.auth:Calculating signature using v4 auth.
+DEBUG:botocore.auth:CanonicalRequest:
+PUT
+/19-05-2024%2011%3A41%3A01-ml.log
+
+content-md5:tew0ef0Ow+1tvvwlMDq0Mw==
+host:moulinlauzes.s3.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20240519T094113Z
+x-amz-security-token:IQoJb3JpZ2luX2VjEJn//////////wEaCXVzLWVhc3QtMSJHMEUCIGcjXO9JID0Apnqnyk4Ct6Dy+Ja+RUP1U5b2GJBuunqdAiEA7hzhspb6WY2Prg6HpJ+R03zXsj9VarHkgO6CPol/3cMquwUIEhAAGgw3NzY3NzI1MjAyODUiDMOnxWZbUQDQ/kFQVSqYBe/IeVTkecvpkNcLqIJn/2bPccR3+H/XCXntxNLNDGJWGjwmw3nGWaF/Jaql3u6DvQgqFKMv0PhVm/4omvVqfOHmWI/r4VcCluIinDyftMBve3oBRxlSgCvCHJGzGu7qwtkXpOWGrz7PVyvx+OcwYm1fUr821GJy6Wop0381nN2PUDovL2kWDEm1uIHSxunsHQAdPOyUkDbdlfMO3BUE4sHrJL8tyclrjwRfznXA2J9D85DHEyLDbugpoiLIZli7HYB4Po+MnUx4xK4FWl+i2GN/aMzUNZX2kqMLRMIsFHBG0yohkgTUso2nD1LZwlkjwkDl6IZqYDQHbo13R9i9pGoQM1CnPHwGIt9mQjFi+VULWpc5beM7pBM3C6SbZAs549NTEqUFnVVq1ihAOulyYt4vmVbXTaJTJqmi3Et2DP4KMaI/DrevjMpIthxpz8CRWMUDZmZJNoUOZt4Bz5YBLosP4elAuveiORwTuclu2fOWhMmkudleDGpK2aQhbxxuzpR2XWmjhjGNoCmA/0khoRg0+mrGMVHIOsW6Y8x+8Xsnq6ceRqo1rZVYEmouiXjzuHzRsDxS4DnHmTy91KxO+OzTipvrwOvJhTt41aQlp3xYVQNNtLviaBM89PQ827r5zdj58lHZBjmG+fyblUsqeyhW/XGXA9/LR+fYSWgvAT+s2OpedS/rjsf+lTaddyUeMPBnPHFgcX2LYl9DeovOQ2bBfCRNPeEF4qJleHixofvbUbZQ822aHMbhUGsbnAw82jiSbYPglSooU3hRxUnEV9TcZ1vR/c5Mou7Nj2hzKsERzJizVG0oGFYK3qSQCmJxawwYDSCicY6Z91CmG+vxCcrMjQjs91o2pYUL3Gym2HCda36tcATHKHowlICnsgY6sQHGQFgyW/8tjdPR/NJqCjTzHkeInaUD3FjtCYAAC1GdUimxldc2kr47iRmiY5e1hcz9yKEc9cSlrXwuG4uXjZ5uWeUym7GCZEN04He6iGEDmXo3CkMJbFMsGeEw34YWgbhYHX0Kwy97n6Ez8Jpdpy161NQeuUPQj98g1XYBfnNvMxDJWTvRaQWwGI9gmTAU/cqU3JYJF7kjvAmdbLpdaHQWrYtrcWw7CwkIEfSyKkmwkrM=
+
+content-md5;host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+UNSIGNED-PAYLOAD
+DEBUG:botocore.auth:StringToSign:
+AWS4-HMAC-SHA256
+20240519T094113Z
+20240519/us-east-1/s3/aws4_request
+c7f4be4c806e3a14e3be3948113d03b99b0b4e2d210fbcb8d9abe0e679da46a3
+DEBUG:botocore.auth:Signature:
+66898447345e75b6da4f6fbf2bb1e7f4eed292e7d178c7ddcbc27c434bd5797d
+DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x7367abc37ba0>
+DEBUG:botocore.endpoint:Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://moulinlauzes.s3.amazonaws.com/19-05-2024%2011%3A41%3A01-ml.log, headers={'User-Agent': b'Boto3/1.34.105 md/Botocore#1.34.105 ua/2.0 os/linux#6.8.0-1008-aws md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.105 Resource', 'Content-MD5': b'tew0ef0Ow+1tvvwlMDq0Mw==', 'Expect': b'100-continue', 'X-Amz-Date': b'20240519T094113Z', 'X-Amz-Security-Token': b'IQoJb3JpZ2luX2VjEJn//////////wEaCXVzLWVhc3QtMSJHMEUCIGcjXO9JID0Apnqnyk4Ct6Dy+Ja+RUP1U5b2GJBuunqdAiEA7hzhspb6WY2Prg6HpJ+R03zXsj9VarHkgO6CPol/3cMquwUIEhAAGgw3NzY3NzI1MjAyODUiDMOnxWZbUQDQ/kFQVSqYBe/IeVTkecvpkNcLqIJn/2bPccR3+H/XCXntxNLNDGJWGjwmw3nGWaF/Jaql3u6DvQgqFKMv0PhVm/4omvVqfOHmWI/r4VcCluIinDyftMBve3oBRxlSgCvCHJGzGu7qwtkXpOWGrz7PVyvx+OcwYm1fUr821GJy6Wop0381nN2PUDovL2kWDEm1uIHSxunsHQAdPOyUkDbdlfMO3BUE4sHrJL8tyclrjwRfznXA2J9D85DHEyLDbugpoiLIZli7HYB4Po+MnUx4xK4FWl+i2GN/aMzUNZX2kqMLRMIsFHBG0yohkgTUso2nD1LZwlkjwkDl6IZqYDQHbo13R9i9pGoQM1CnPHwGIt9mQjFi+VULWpc5beM7pBM3C6SbZAs549NTEqUFnVVq1ihAOulyYt4vmVbXTaJTJqmi3Et2DP4KMaI/DrevjMpIthxpz8CRWMUDZmZJNoUOZt4Bz5YBLosP4elAuveiORwTuclu2fOWhMmkudleDGpK2aQhbxxuzpR2XWmjhjGNoCmA/0khoRg0+mrGMVHIOsW6Y8x+8Xsnq6ceRqo1rZVYEmouiXjzuHzRsDxS4DnHmTy91KxO+OzTipvrwOvJhTt41aQlp3xYVQNNtLviaBM89PQ827r5zdj58lHZBjmG+fyblUsqeyhW/XGXA9/LR+fYSWgvAT+s2OpedS/rjsf+lTaddyUeMPBnPHFgcX2LYl9DeovOQ2bBfCRNPeEF4qJleHixofvbUbZQ822aHMbhUGsbnAw82jiSbYPglSooU3hRxUnEV9TcZ1vR/c5Mou7Nj2hzKsERzJizVG0oGFYK3qSQCmJxawwYDSCicY6Z91CmG+vxCcrMjQjs91o2pYUL3Gym2HCda36tcATHKHowlICnsgY6sQHGQFgyW/8tjdPR/NJqCjTzHkeInaUD3FjtCYAAC1GdUimxldc2kr47iRmiY5e1hcz9yKEc9cSlrXwuG4uXjZ5uWeUym7GCZEN04He6iGEDmXo3CkMJbFMsGeEw34YWgbhYHX0Kwy97n6Ez8Jpdpy161NQeuUPQj98g1XYBfnNvMxDJWTvRaQWwGI9gmTAU/cqU3JYJF7kjvAmdbLpdaHQWrYtrcWw7CwkIEfSyKkmwkrM=', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=ASIA3JW2ABFOSKVFSGD6/20240519/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=66898447345e75b6da4f6fbf2bb1e7f4eed292e7d178c7ddcbc27c434bd5797d', 'amz-sdk-invocation-id': b'c2626520-a776-4719-b36d-8fb162f3826e', 'amz-sdk-request': b'attempt=1', 'Content-Length': '1541'}>
+DEBUG:botocore.httpsession:Certificate path: /home/ubuntu/.venv/lib/python3.12/site-packages/certifi/cacert.pem
+DEBUG:botocore.awsrequest:Waiting for 100 Continue response.
+DEBUG:botocore.awsrequest:100 Continue response seen, now sending request body.
+DEBUG:botocore.parsers:Response headers: {'x-amz-id-2': 'jg/XztiGanT6JRU4JCUpzcKGDK6royUR9QFQ8lnmKJhHGOEm/gZegGHT7+oCEE0EcvCQSSThMqA=', 'x-amz-request-id': 'QD6R8HQQ5WGR4RBR', 'Date': 'Sun, 19 May 2024 09:41:14 GMT', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"b5ec3479fd0ec3ed6dbefc25303ab433"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+DEBUG:botocore.parsers:Response body:
+b''
+DEBUG:botocore.hooks:Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7367aa5b2f00>
+DEBUG:botocore.retryhandler:No retry needed.
+DEBUG:botocore.hooks:Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x7367acc86ed0>>
+DEBUG:boto3.resources.action:Response: {'ResponseMetadata': {'RequestId': 'QD6R8HQQ5WGR4RBR', 'HostId': 'jg/XztiGanT6JRU4JCUpzcKGDK6royUR9QFQ8lnmKJhHGOEm/gZegGHT7+oCEE0EcvCQSSThMqA=', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': 'jg/XztiGanT6JRU4JCUpzcKGDK6royUR9QFQ8lnmKJhHGOEm/gZegGHT7+oCEE0EcvCQSSThMqA=', 'x-amz-request-id': 'QD6R8HQQ5WGR4RBR', 'date': 'Sun, 19 May 2024 09:41:14 GMT', 'x-amz-server-side-encryption': 'AES256', 'etag': '"b5ec3479fd0ec3ed6dbefc25303ab433"', 'server': 'AmazonS3', 'content-length': '0'}, 'RetryAttempts': 0}, 'ETag': '"b5ec3479fd0ec3ed6dbefc25303ab433"', 'ServerSideEncryption': 'AES256'}
+DEBUG:boto3.resources.factory:Loading s3:Object
+DEBUG:botocore.hooks:Event creating-resource-class.s3.Object: calling handler <function lazy_call.<locals>._handler at 0x7367ac9c62a0>
+INFO:__main__:19-05-2024 11:41:13 - capt_bas_moulin : 0 
+INFO:__main__:19-05-2024 11:41:13 - sign_ext_son : 0 
+INFO:__main__:19-05-2024 11:41:13 - capt_rot_blute : 0 
+INFO:__main__:19-05-2024 11:41:13 - inter_shunt_secu : 0 
+INFO:__main__:19-05-2024 11:41:13 - capt_ensach : 1 
+INFO:__main__:19-05-2024 11:41:13 - run_powerflex : 0 
+INFO:__main__:19-05-2024 11:41:13 - moteur_succion : 0 
+INFO:__main__:19-05-2024 11:41:13 - moteur_son : 0 
+INFO:__main__:19-05-2024 11:41:13 - battage : 0 
+INFO:__main__:19-05-2024 11:41:13 - out_sign_son : 0 
+INFO:__main__:19-05-2024 11:41:13 - moteur_bluterie : 0 
+INFO:__main__:19-05-2024 11:41:13 - courrant_meule : 0.0 A
+INFO:__main__:19-05-2024 11:41:13 - stop_powerflex_true : 1 
+INFO:__main__:19-05-2024 11:41:13 - stop_powerflex : 0 
+INFO:__main__:19-05-2024 11:41:13 - start_poxerflex : 0 
+INFO:__main__:19-05-2024 11:41:13 - start_bluterie : 0 
+INFO:__main__:19-05-2024 11:41:13 - current_meule : 0.0 A
+INFO:__main__:19-05-2024 11:41:13 - t_meule : 19 °C
+INFO:__main__:19-05-2024 11:41:13 - capt_rot_blut : 0 
+INFO:__main__:19-05-2024 11:41:13 - alarm_entret : 1 
+INFO:__main__:19-05-2024 11:41:13 - horametre : 1 
+INFO:__main__:19-05-2024 11:41:13 - retour_freq_meule : 0.0 
+INFO:__main__:19-05-2024 11:41:13 - stop_powerflex_vibrat : 1 
+INFO:__main__:19-05-2024 11:41:13 - reg_intens_meule : 2.95 A
+INFO:__main__:19-05-2024 11:41:13 - capt_ensach_alarm : 0 
+INFO:__main__:19-05-2024 11:41:13 - capt_bas_alarm : 0 
+INFO:__main__:19-05-2024 11:41:13 - intensite_meule : 0 
+INFO:__main__:19-05-2024 11:41:13 - arret_vibra : 0 
+INFO:__main__:19-05-2024 11:41:13 - succion_force : 0 
+INFO:__main__:19-05-2024 11:41:13 - vibra_eleve : 0 
+INFO:__main__:19-05-2024 11:41:13 - vidan_trem : 0 
+INFO:__main__:19-05-2024 11:41:13 - speed_ref_vibrat : 0.0 Hz
+INFO:__main__:19-05-2024 11:41:13 - start_powerflex_vibrat : 0 
+INFO:__main__:19-05-2024 11:41:13 - cv_manuel : 13.0 Hz
+WARNING:__main__:-------------------------------------------------------
+WARNING:__main__:Fin du Fichier de Logs du 19-05-2024 11:41:13 
+DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x7367abc27e20>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7367abd4e160>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7367aadaec00>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7367abd4dee0>
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_global
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_global
+DEBUG:botocore.configprovider:No configured endpoint found.
+DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+DEBUG:botocore.client:Registering retry handlers for service: s3
+DEBUG:botocore.utils:Registering S3 region redirector handler
+DEBUG:botocore.utils:Registering S3Express Identity Resolver
+DEBUG:boto3.resources.factory:Loading s3:s3
+DEBUG:boto3.resources.factory:Loading s3:Bucket
+DEBUG:boto3.resources.model:Renaming Bucket attribute name
+DEBUG:botocore.hooks:Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x7367ac9c6340>
+DEBUG:boto3.resources.action:Calling s3:put_object with {'Bucket': 'moulinlauzes', 'Key': '19-05-2024 11:41:13-ml.log', 'Body': <_io.BufferedReader name='19-05-2024 11:41:13-ml.log'>}
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x7367abc36840>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x7367abc35b20>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x7367abc37240>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x7367abc35a80>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x7367abc37c40>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x7367aa560110>>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x7367aae06660>>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x7367abc358a0>
+DEBUG:botocore.hooks:Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7367abc37e20>
+DEBUG:botocore.hooks:Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x7367aa560110>>
+DEBUG:botocore.regions:Calling endpoint provider with parameters: {'Bucket': 'moulinlauzes', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '19-05-2024 11:41:13-ml.log', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+DEBUG:botocore.regions:Endpoint provider result: https://moulinlauzes.s3.amazonaws.com
+DEBUG:botocore.regions:Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+DEBUG:botocore.regions:Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function conditionally_calculate_checksum at 0x7367abed3ec0>
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x7367abc35e40>
+DEBUG:botocore.handlers:Adding expect 100 continue header to request.
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x7367aa560e60>>
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x7367abc34d60>
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x7367abc37380>
+DEBUG:botocore.endpoint:Making request for OperationModel(name=PutObject) with params: {'url_path': '/19-05-2024%2011%3A41%3A13-ml.log', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.34.105 md/Botocore#1.34.105 ua/2.0 os/linux#6.8.0-1008-aws md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.105 Resource', 'Content-MD5': '0fa5TcGw+d8jw8NfDk14Pg==', 'Expect': '100-continue'}, 'body': <_io.BufferedReader name='19-05-2024 11:41:13-ml.log'>, 'auth_path': '/moulinlauzes/19-05-2024%2011%3A41%3A13-ml.log', 'url': 'https://moulinlauzes.s3.amazonaws.com/19-05-2024%2011%3A41%3A13-ml.log', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x7367aa5adc70>, 'has_streaming_input': True, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'moulinlauzes', 'params': {'Bucket': 'moulinlauzes', 'Key': '19-05-2024 11:41:13-ml.log', 'Body': <_io.BufferedReader name='19-05-2024 11:41:13-ml.log'>}}, 'input_params': {'Bucket': 'moulinlauzes', 'Key': '19-05-2024 11:41:13-ml.log'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7367aa5adc40>>
+DEBUG:botocore.hooks:Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7367aae06660>>
+DEBUG:botocore.hooks:Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x7367abc35760>
+DEBUG:botocore.hooks:Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x7367abc37d80>
+DEBUG:botocore.hooks:Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7367aa560e60>>
+DEBUG:botocore.auth:Calculating signature using v4 auth.
+DEBUG:botocore.auth:CanonicalRequest:
+PUT
+/19-05-2024%2011%3A41%3A13-ml.log
+
+content-md5:0fa5TcGw+d8jw8NfDk14Pg==
+host:moulinlauzes.s3.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20240519T094125Z
+x-amz-security-token:IQoJb3JpZ2luX2VjEJn//////////wEaCXVzLWVhc3QtMSJHMEUCIGcjXO9JID0Apnqnyk4Ct6Dy+Ja+RUP1U5b2GJBuunqdAiEA7hzhspb6WY2Prg6HpJ+R03zXsj9VarHkgO6CPol/3cMquwUIEhAAGgw3NzY3NzI1MjAyODUiDMOnxWZbUQDQ/kFQVSqYBe/IeVTkecvpkNcLqIJn/2bPccR3+H/XCXntxNLNDGJWGjwmw3nGWaF/Jaql3u6DvQgqFKMv0PhVm/4omvVqfOHmWI/r4VcCluIinDyftMBve3oBRxlSgCvCHJGzGu7qwtkXpOWGrz7PVyvx+OcwYm1fUr821GJy6Wop0381nN2PUDovL2kWDEm1uIHSxunsHQAdPOyUkDbdlfMO3BUE4sHrJL8tyclrjwRfznXA2J9D85DHEyLDbugpoiLIZli7HYB4Po+MnUx4xK4FWl+i2GN/aMzUNZX2kqMLRMIsFHBG0yohkgTUso2nD1LZwlkjwkDl6IZqYDQHbo13R9i9pGoQM1CnPHwGIt9mQjFi+VULWpc5beM7pBM3C6SbZAs549NTEqUFnVVq1ihAOulyYt4vmVbXTaJTJqmi3Et2DP4KMaI/DrevjMpIthxpz8CRWMUDZmZJNoUOZt4Bz5YBLosP4elAuveiORwTuclu2fOWhMmkudleDGpK2aQhbxxuzpR2XWmjhjGNoCmA/0khoRg0+mrGMVHIOsW6Y8x+8Xsnq6ceRqo1rZVYEmouiXjzuHzRsDxS4DnHmTy91KxO+OzTipvrwOvJhTt41aQlp3xYVQNNtLviaBM89PQ827r5zdj58lHZBjmG+fyblUsqeyhW/XGXA9/LR+fYSWgvAT+s2OpedS/rjsf+lTaddyUeMPBnPHFgcX2LYl9DeovOQ2bBfCRNPeEF4qJleHixofvbUbZQ822aHMbhUGsbnAw82jiSbYPglSooU3hRxUnEV9TcZ1vR/c5Mou7Nj2hzKsERzJizVG0oGFYK3qSQCmJxawwYDSCicY6Z91CmG+vxCcrMjQjs91o2pYUL3Gym2HCda36tcATHKHowlICnsgY6sQHGQFgyW/8tjdPR/NJqCjTzHkeInaUD3FjtCYAAC1GdUimxldc2kr47iRmiY5e1hcz9yKEc9cSlrXwuG4uXjZ5uWeUym7GCZEN04He6iGEDmXo3CkMJbFMsGeEw34YWgbhYHX0Kwy97n6Ez8Jpdpy161NQeuUPQj98g1XYBfnNvMxDJWTvRaQWwGI9gmTAU/cqU3JYJF7kjvAmdbLpdaHQWrYtrcWw7CwkIEfSyKkmwkrM=
+
+content-md5;host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+UNSIGNED-PAYLOAD
+DEBUG:botocore.auth:StringToSign:
+AWS4-HMAC-SHA256
+20240519T094125Z
+20240519/us-east-1/s3/aws4_request
+9d325337753af9498b45fa94b55981e043d807d4365925ddd16801402de13c9a
+DEBUG:botocore.auth:Signature:
+84caa068aad4d2ed4e3d4366ac1bc808897a123871d50693b6d972987b438905
+DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x7367abc37ba0>
+DEBUG:botocore.endpoint:Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://moulinlauzes.s3.amazonaws.com/19-05-2024%2011%3A41%3A13-ml.log, headers={'User-Agent': b'Boto3/1.34.105 md/Botocore#1.34.105 ua/2.0 os/linux#6.8.0-1008-aws md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.105 Resource', 'Content-MD5': b'0fa5TcGw+d8jw8NfDk14Pg==', 'Expect': b'100-continue', 'X-Amz-Date': b'20240519T094125Z', 'X-Amz-Security-Token': b'IQoJb3JpZ2luX2VjEJn//////////wEaCXVzLWVhc3QtMSJHMEUCIGcjXO9JID0Apnqnyk4Ct6Dy+Ja+RUP1U5b2GJBuunqdAiEA7hzhspb6WY2Prg6HpJ+R03zXsj9VarHkgO6CPol/3cMquwUIEhAAGgw3NzY3NzI1MjAyODUiDMOnxWZbUQDQ/kFQVSqYBe/IeVTkecvpkNcLqIJn/2bPccR3+H/XCXntxNLNDGJWGjwmw3nGWaF/Jaql3u6DvQgqFKMv0PhVm/4omvVqfOHmWI/r4VcCluIinDyftMBve3oBRxlSgCvCHJGzGu7qwtkXpOWGrz7PVyvx+OcwYm1fUr821GJy6Wop0381nN2PUDovL2kWDEm1uIHSxunsHQAdPOyUkDbdlfMO3BUE4sHrJL8tyclrjwRfznXA2J9D85DHEyLDbugpoiLIZli7HYB4Po+MnUx4xK4FWl+i2GN/aMzUNZX2kqMLRMIsFHBG0yohkgTUso2nD1LZwlkjwkDl6IZqYDQHbo13R9i9pGoQM1CnPHwGIt9mQjFi+VULWpc5beM7pBM3C6SbZAs549NTEqUFnVVq1ihAOulyYt4vmVbXTaJTJqmi3Et2DP4KMaI/DrevjMpIthxpz8CRWMUDZmZJNoUOZt4Bz5YBLosP4elAuveiORwTuclu2fOWhMmkudleDGpK2aQhbxxuzpR2XWmjhjGNoCmA/0khoRg0+mrGMVHIOsW6Y8x+8Xsnq6ceRqo1rZVYEmouiXjzuHzRsDxS4DnHmTy91KxO+OzTipvrwOvJhTt41aQlp3xYVQNNtLviaBM89PQ827r5zdj58lHZBjmG+fyblUsqeyhW/XGXA9/LR+fYSWgvAT+s2OpedS/rjsf+lTaddyUeMPBnPHFgcX2LYl9DeovOQ2bBfCRNPeEF4qJleHixofvbUbZQ822aHMbhUGsbnAw82jiSbYPglSooU3hRxUnEV9TcZ1vR/c5Mou7Nj2hzKsERzJizVG0oGFYK3qSQCmJxawwYDSCicY6Z91CmG+vxCcrMjQjs91o2pYUL3Gym2HCda36tcATHKHowlICnsgY6sQHGQFgyW/8tjdPR/NJqCjTzHkeInaUD3FjtCYAAC1GdUimxldc2kr47iRmiY5e1hcz9yKEc9cSlrXwuG4uXjZ5uWeUym7GCZEN04He6iGEDmXo3CkMJbFMsGeEw34YWgbhYHX0Kwy97n6Ez8Jpdpy161NQeuUPQj98g1XYBfnNvMxDJWTvRaQWwGI9gmTAU/cqU3JYJF7kjvAmdbLpdaHQWrYtrcWw7CwkIEfSyKkmwkrM=', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=ASIA3JW2ABFOSKVFSGD6/20240519/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=84caa068aad4d2ed4e3d4366ac1bc808897a123871d50693b6d972987b438905', 'amz-sdk-invocation-id': b'7900668b-b30c-4420-861e-9dbf419adcb0', 'amz-sdk-request': b'attempt=1', 'Content-Length': '1541'}>
+DEBUG:botocore.httpsession:Certificate path: /home/ubuntu/.venv/lib/python3.12/site-packages/certifi/cacert.pem
+DEBUG:botocore.awsrequest:Waiting for 100 Continue response.
+DEBUG:botocore.awsrequest:100 Continue response seen, now sending request body.
+DEBUG:botocore.parsers:Response headers: {'x-amz-id-2': 'PDjf2ncysTBFUg0QLbsGYakAYjdc3X6LJ5PK+6k0Vz5m9shbzaA4ZDi4/YmzmU6ZgyhUtwD8LBblYh54xNRixHkL0lPQwUuj', 'x-amz-request-id': 'H22J25R6VP5RQCVA', 'Date': 'Sun, 19 May 2024 09:41:26 GMT', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"d1f6b94dc1b0f9df23c3c35f0e4d783e"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+DEBUG:botocore.parsers:Response body:
+b''
+DEBUG:botocore.hooks:Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7367aa560dd0>
+DEBUG:botocore.retryhandler:No retry needed.
+DEBUG:botocore.hooks:Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x7367aa560110>>
+DEBUG:boto3.resources.action:Response: {'ResponseMetadata': {'RequestId': 'H22J25R6VP5RQCVA', 'HostId': 'PDjf2ncysTBFUg0QLbsGYakAYjdc3X6LJ5PK+6k0Vz5m9shbzaA4ZDi4/YmzmU6ZgyhUtwD8LBblYh54xNRixHkL0lPQwUuj', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': 'PDjf2ncysTBFUg0QLbsGYakAYjdc3X6LJ5PK+6k0Vz5m9shbzaA4ZDi4/YmzmU6ZgyhUtwD8LBblYh54xNRixHkL0lPQwUuj', 'x-amz-request-id': 'H22J25R6VP5RQCVA', 'date': 'Sun, 19 May 2024 09:41:26 GMT', 'x-amz-server-side-encryption': 'AES256', 'etag': '"d1f6b94dc1b0f9df23c3c35f0e4d783e"', 'server': 'AmazonS3', 'content-length': '0'}, 'RetryAttempts': 0}, 'ETag': '"d1f6b94dc1b0f9df23c3c35f0e4d783e"', 'ServerSideEncryption': 'AES256'}
+DEBUG:boto3.resources.factory:Loading s3:Object
+DEBUG:botocore.hooks:Event creating-resource-class.s3.Object: calling handler <function lazy_call.<locals>._handler at 0x7367ac9c62a0>
+INFO:__main__:19-05-2024 11:41:25 - capt_bas_moulin : 0 
+INFO:__main__:19-05-2024 11:41:25 - sign_ext_son : 0 
+INFO:__main__:19-05-2024 11:41:25 - capt_rot_blute : 0 
+INFO:__main__:19-05-2024 11:41:25 - inter_shunt_secu : 0 
+INFO:__main__:19-05-2024 11:41:25 - capt_ensach : 1 
+INFO:__main__:19-05-2024 11:41:25 - run_powerflex : 0 
+INFO:__main__:19-05-2024 11:41:25 - moteur_succion : 0 
+INFO:__main__:19-05-2024 11:41:25 - moteur_son : 0 
+INFO:__main__:19-05-2024 11:41:25 - battage : 0 
+INFO:__main__:19-05-2024 11:41:25 - out_sign_son : 0 
+INFO:__main__:19-05-2024 11:41:25 - moteur_bluterie : 0 
+INFO:__main__:19-05-2024 11:41:25 - courrant_meule : 0.0 A
+INFO:__main__:19-05-2024 11:41:25 - stop_powerflex_true : 1 
+INFO:__main__:19-05-2024 11:41:25 - stop_powerflex : 0 
+INFO:__main__:19-05-2024 11:41:25 - start_poxerflex : 0 
+INFO:__main__:19-05-2024 11:41:25 - start_bluterie : 0 
+INFO:__main__:19-05-2024 11:41:25 - current_meule : 0.0 A
+INFO:__main__:19-05-2024 11:41:25 - t_meule : 19 °C
+INFO:__main__:19-05-2024 11:41:25 - capt_rot_blut : 0 
+INFO:__main__:19-05-2024 11:41:25 - alarm_entret : 1 
+INFO:__main__:19-05-2024 11:41:25 - horametre : 1 
+INFO:__main__:19-05-2024 11:41:25 - retour_freq_meule : 0.0 
+INFO:__main__:19-05-2024 11:41:25 - stop_powerflex_vibrat : 1 
+INFO:__main__:19-05-2024 11:41:25 - reg_intens_meule : 2.95 A
+INFO:__main__:19-05-2024 11:41:25 - capt_ensach_alarm : 0 
+INFO:__main__:19-05-2024 11:41:25 - capt_bas_alarm : 0 
+INFO:__main__:19-05-2024 11:41:25 - intensite_meule : 0 
+INFO:__main__:19-05-2024 11:41:25 - arret_vibra : 0 
+INFO:__main__:19-05-2024 11:41:25 - succion_force : 0 
+INFO:__main__:19-05-2024 11:41:25 - vibra_eleve : 0 
+INFO:__main__:19-05-2024 11:41:25 - vidan_trem : 0 
+INFO:__main__:19-05-2024 11:41:25 - speed_ref_vibrat : 0.0 Hz
+INFO:__main__:19-05-2024 11:41:25 - start_powerflex_vibrat : 0 
+INFO:__main__:19-05-2024 11:41:25 - cv_manuel : 13.0 Hz
+WARNING:__main__:-------------------------------------------------------
+WARNING:__main__:Fin du Fichier de Logs du 19-05-2024 11:41:25 
+DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x7367abc27e20>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7367abd4e160>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7367aadaec00>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7367abd4dee0>
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_global
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_global
+DEBUG:botocore.configprovider:No configured endpoint found.
+DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+DEBUG:botocore.client:Registering retry handlers for service: s3
+DEBUG:botocore.utils:Registering S3 region redirector handler
+DEBUG:botocore.utils:Registering S3Express Identity Resolver
+DEBUG:boto3.resources.factory:Loading s3:s3
+DEBUG:boto3.resources.factory:Loading s3:Bucket
+DEBUG:boto3.resources.model:Renaming Bucket attribute name
+DEBUG:botocore.hooks:Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x7367ac9c6340>
+DEBUG:boto3.resources.action:Calling s3:put_object with {'Bucket': 'moulinlauzes', 'Key': '19-05-2024 11:41:25-ml.log', 'Body': <_io.BufferedReader name='19-05-2024 11:41:25-ml.log'>}
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x7367abc36840>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x7367abc35b20>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x7367abc37240>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x7367abc35a80>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x7367abc37c40>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x7367a9ee6930>>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x7367aae074a0>>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x7367abc358a0>
+DEBUG:botocore.hooks:Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7367abc37e20>
+DEBUG:botocore.hooks:Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x7367a9ee6930>>
+DEBUG:botocore.regions:Calling endpoint provider with parameters: {'Bucket': 'moulinlauzes', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '19-05-2024 11:41:25-ml.log', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+DEBUG:botocore.regions:Endpoint provider result: https://moulinlauzes.s3.amazonaws.com
+DEBUG:botocore.regions:Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+DEBUG:botocore.regions:Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function conditionally_calculate_checksum at 0x7367abed3ec0>
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x7367abc35e40>
+DEBUG:botocore.handlers:Adding expect 100 continue header to request.
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x7367a9ee6cc0>>
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x7367abc34d60>
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x7367abc37380>
+DEBUG:botocore.endpoint:Making request for OperationModel(name=PutObject) with params: {'url_path': '/19-05-2024%2011%3A41%3A25-ml.log', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.34.105 md/Botocore#1.34.105 ua/2.0 os/linux#6.8.0-1008-aws md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.105 Resource', 'Content-MD5': '/fufgjm9IewcnIr9Vu7YRA==', 'Expect': '100-continue'}, 'body': <_io.BufferedReader name='19-05-2024 11:41:25-ml.log'>, 'auth_path': '/moulinlauzes/19-05-2024%2011%3A41%3A25-ml.log', 'url': 'https://moulinlauzes.s3.amazonaws.com/19-05-2024%2011%3A41%3A25-ml.log', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x7367aa563aa0>, 'has_streaming_input': True, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'moulinlauzes', 'params': {'Bucket': 'moulinlauzes', 'Key': '19-05-2024 11:41:25-ml.log', 'Body': <_io.BufferedReader name='19-05-2024 11:41:25-ml.log'>}}, 'input_params': {'Bucket': 'moulinlauzes', 'Key': '19-05-2024 11:41:25-ml.log'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7367aa563a70>>
+DEBUG:botocore.hooks:Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7367aae074a0>>
+DEBUG:botocore.hooks:Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x7367abc35760>
+DEBUG:botocore.hooks:Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x7367abc37d80>
+DEBUG:botocore.hooks:Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7367a9ee6cc0>>
+DEBUG:botocore.auth:Calculating signature using v4 auth.
+DEBUG:botocore.auth:CanonicalRequest:
+PUT
+/19-05-2024%2011%3A41%3A25-ml.log
+
+content-md5:/fufgjm9IewcnIr9Vu7YRA==
+host:moulinlauzes.s3.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20240519T094136Z
+x-amz-security-token:IQoJb3JpZ2luX2VjEJn//////////wEaCXVzLWVhc3QtMSJHMEUCIGcjXO9JID0Apnqnyk4Ct6Dy+Ja+RUP1U5b2GJBuunqdAiEA7hzhspb6WY2Prg6HpJ+R03zXsj9VarHkgO6CPol/3cMquwUIEhAAGgw3NzY3NzI1MjAyODUiDMOnxWZbUQDQ/kFQVSqYBe/IeVTkecvpkNcLqIJn/2bPccR3+H/XCXntxNLNDGJWGjwmw3nGWaF/Jaql3u6DvQgqFKMv0PhVm/4omvVqfOHmWI/r4VcCluIinDyftMBve3oBRxlSgCvCHJGzGu7qwtkXpOWGrz7PVyvx+OcwYm1fUr821GJy6Wop0381nN2PUDovL2kWDEm1uIHSxunsHQAdPOyUkDbdlfMO3BUE4sHrJL8tyclrjwRfznXA2J9D85DHEyLDbugpoiLIZli7HYB4Po+MnUx4xK4FWl+i2GN/aMzUNZX2kqMLRMIsFHBG0yohkgTUso2nD1LZwlkjwkDl6IZqYDQHbo13R9i9pGoQM1CnPHwGIt9mQjFi+VULWpc5beM7pBM3C6SbZAs549NTEqUFnVVq1ihAOulyYt4vmVbXTaJTJqmi3Et2DP4KMaI/DrevjMpIthxpz8CRWMUDZmZJNoUOZt4Bz5YBLosP4elAuveiORwTuclu2fOWhMmkudleDGpK2aQhbxxuzpR2XWmjhjGNoCmA/0khoRg0+mrGMVHIOsW6Y8x+8Xsnq6ceRqo1rZVYEmouiXjzuHzRsDxS4DnHmTy91KxO+OzTipvrwOvJhTt41aQlp3xYVQNNtLviaBM89PQ827r5zdj58lHZBjmG+fyblUsqeyhW/XGXA9/LR+fYSWgvAT+s2OpedS/rjsf+lTaddyUeMPBnPHFgcX2LYl9DeovOQ2bBfCRNPeEF4qJleHixofvbUbZQ822aHMbhUGsbnAw82jiSbYPglSooU3hRxUnEV9TcZ1vR/c5Mou7Nj2hzKsERzJizVG0oGFYK3qSQCmJxawwYDSCicY6Z91CmG+vxCcrMjQjs91o2pYUL3Gym2HCda36tcATHKHowlICnsgY6sQHGQFgyW/8tjdPR/NJqCjTzHkeInaUD3FjtCYAAC1GdUimxldc2kr47iRmiY5e1hcz9yKEc9cSlrXwuG4uXjZ5uWeUym7GCZEN04He6iGEDmXo3CkMJbFMsGeEw34YWgbhYHX0Kwy97n6Ez8Jpdpy161NQeuUPQj98g1XYBfnNvMxDJWTvRaQWwGI9gmTAU/cqU3JYJF7kjvAmdbLpdaHQWrYtrcWw7CwkIEfSyKkmwkrM=
+
+content-md5;host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+UNSIGNED-PAYLOAD
+DEBUG:botocore.auth:StringToSign:
+AWS4-HMAC-SHA256
+20240519T094136Z
+20240519/us-east-1/s3/aws4_request
+8573ad7f2c62f301f41377f15bbc9881fa64c0d1865d571da01dd7e761ec959b
+DEBUG:botocore.auth:Signature:
+e92ecaeaef4ce8c6b912eacfcaf8bc63af96980a81e65e5e2ac9ba1914b95ef0
+DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x7367abc37ba0>
+DEBUG:botocore.endpoint:Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://moulinlauzes.s3.amazonaws.com/19-05-2024%2011%3A41%3A25-ml.log, headers={'User-Agent': b'Boto3/1.34.105 md/Botocore#1.34.105 ua/2.0 os/linux#6.8.0-1008-aws md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.105 Resource', 'Content-MD5': b'/fufgjm9IewcnIr9Vu7YRA==', 'Expect': b'100-continue', 'X-Amz-Date': b'20240519T094136Z', 'X-Amz-Security-Token': b'IQoJb3JpZ2luX2VjEJn//////////wEaCXVzLWVhc3QtMSJHMEUCIGcjXO9JID0Apnqnyk4Ct6Dy+Ja+RUP1U5b2GJBuunqdAiEA7hzhspb6WY2Prg6HpJ+R03zXsj9VarHkgO6CPol/3cMquwUIEhAAGgw3NzY3NzI1MjAyODUiDMOnxWZbUQDQ/kFQVSqYBe/IeVTkecvpkNcLqIJn/2bPccR3+H/XCXntxNLNDGJWGjwmw3nGWaF/Jaql3u6DvQgqFKMv0PhVm/4omvVqfOHmWI/r4VcCluIinDyftMBve3oBRxlSgCvCHJGzGu7qwtkXpOWGrz7PVyvx+OcwYm1fUr821GJy6Wop0381nN2PUDovL2kWDEm1uIHSxunsHQAdPOyUkDbdlfMO3BUE4sHrJL8tyclrjwRfznXA2J9D85DHEyLDbugpoiLIZli7HYB4Po+MnUx4xK4FWl+i2GN/aMzUNZX2kqMLRMIsFHBG0yohkgTUso2nD1LZwlkjwkDl6IZqYDQHbo13R9i9pGoQM1CnPHwGIt9mQjFi+VULWpc5beM7pBM3C6SbZAs549NTEqUFnVVq1ihAOulyYt4vmVbXTaJTJqmi3Et2DP4KMaI/DrevjMpIthxpz8CRWMUDZmZJNoUOZt4Bz5YBLosP4elAuveiORwTuclu2fOWhMmkudleDGpK2aQhbxxuzpR2XWmjhjGNoCmA/0khoRg0+mrGMVHIOsW6Y8x+8Xsnq6ceRqo1rZVYEmouiXjzuHzRsDxS4DnHmTy91KxO+OzTipvrwOvJhTt41aQlp3xYVQNNtLviaBM89PQ827r5zdj58lHZBjmG+fyblUsqeyhW/XGXA9/LR+fYSWgvAT+s2OpedS/rjsf+lTaddyUeMPBnPHFgcX2LYl9DeovOQ2bBfCRNPeEF4qJleHixofvbUbZQ822aHMbhUGsbnAw82jiSbYPglSooU3hRxUnEV9TcZ1vR/c5Mou7Nj2hzKsERzJizVG0oGFYK3qSQCmJxawwYDSCicY6Z91CmG+vxCcrMjQjs91o2pYUL3Gym2HCda36tcATHKHowlICnsgY6sQHGQFgyW/8tjdPR/NJqCjTzHkeInaUD3FjtCYAAC1GdUimxldc2kr47iRmiY5e1hcz9yKEc9cSlrXwuG4uXjZ5uWeUym7GCZEN04He6iGEDmXo3CkMJbFMsGeEw34YWgbhYHX0Kwy97n6Ez8Jpdpy161NQeuUPQj98g1XYBfnNvMxDJWTvRaQWwGI9gmTAU/cqU3JYJF7kjvAmdbLpdaHQWrYtrcWw7CwkIEfSyKkmwkrM=', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=ASIA3JW2ABFOSKVFSGD6/20240519/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=e92ecaeaef4ce8c6b912eacfcaf8bc63af96980a81e65e5e2ac9ba1914b95ef0', 'amz-sdk-invocation-id': b'28643805-33ae-4cb5-adc0-33923bca185e', 'amz-sdk-request': b'attempt=1', 'Content-Length': '1541'}>
+DEBUG:botocore.httpsession:Certificate path: /home/ubuntu/.venv/lib/python3.12/site-packages/certifi/cacert.pem
+DEBUG:botocore.awsrequest:Waiting for 100 Continue response.
+DEBUG:botocore.awsrequest:100 Continue response seen, now sending request body.
+DEBUG:botocore.parsers:Response headers: {'x-amz-id-2': 'jw0p1Z534Izq0XmAtKw/fleqSvM9Rk4fwwTclP+2ZOY8e6kt9OrHsLcoW6cmT7MAFLhPmiEYyXM=', 'x-amz-request-id': '4RPV96RFS1X4QCA2', 'Date': 'Sun, 19 May 2024 09:41:37 GMT', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"fdfb9f8239bd21ec1c9c8afd56eed844"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+DEBUG:botocore.parsers:Response body:
+b''
+DEBUG:botocore.hooks:Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7367a9ee6c30>
+DEBUG:botocore.retryhandler:No retry needed.
+DEBUG:botocore.hooks:Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x7367a9ee6930>>
+DEBUG:boto3.resources.action:Response: {'ResponseMetadata': {'RequestId': '4RPV96RFS1X4QCA2', 'HostId': 'jw0p1Z534Izq0XmAtKw/fleqSvM9Rk4fwwTclP+2ZOY8e6kt9OrHsLcoW6cmT7MAFLhPmiEYyXM=', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': 'jw0p1Z534Izq0XmAtKw/fleqSvM9Rk4fwwTclP+2ZOY8e6kt9OrHsLcoW6cmT7MAFLhPmiEYyXM=', 'x-amz-request-id': '4RPV96RFS1X4QCA2', 'date': 'Sun, 19 May 2024 09:41:37 GMT', 'x-amz-server-side-encryption': 'AES256', 'etag': '"fdfb9f8239bd21ec1c9c8afd56eed844"', 'server': 'AmazonS3', 'content-length': '0'}, 'RetryAttempts': 0}, 'ETag': '"fdfb9f8239bd21ec1c9c8afd56eed844"', 'ServerSideEncryption': 'AES256'}
+DEBUG:boto3.resources.factory:Loading s3:Object
+DEBUG:botocore.hooks:Event creating-resource-class.s3.Object: calling handler <function lazy_call.<locals>._handler at 0x7367ac9c62a0>
+INFO:__main__:19-05-2024 11:41:36 - capt_bas_moulin : 0 
+INFO:__main__:19-05-2024 11:41:36 - sign_ext_son : 0 
+INFO:__main__:19-05-2024 11:41:36 - capt_rot_blute : 0 
+INFO:__main__:19-05-2024 11:41:36 - inter_shunt_secu : 0 
+INFO:__main__:19-05-2024 11:41:36 - capt_ensach : 1 
+INFO:__main__:19-05-2024 11:41:36 - run_powerflex : 0 
+INFO:__main__:19-05-2024 11:41:36 - moteur_succion : 0 
+INFO:__main__:19-05-2024 11:41:36 - moteur_son : 0 
+INFO:__main__:19-05-2024 11:41:36 - battage : 0 
+INFO:__main__:19-05-2024 11:41:36 - out_sign_son : 0 
+INFO:__main__:19-05-2024 11:41:36 - moteur_bluterie : 0 
+INFO:__main__:19-05-2024 11:41:36 - courrant_meule : 0.0 A
+INFO:__main__:19-05-2024 11:41:36 - stop_powerflex_true : 1 
+INFO:__main__:19-05-2024 11:41:36 - stop_powerflex : 0 
+INFO:__main__:19-05-2024 11:41:36 - start_poxerflex : 0 
+INFO:__main__:19-05-2024 11:41:36 - start_bluterie : 0 
+INFO:__main__:19-05-2024 11:41:36 - current_meule : 0.0 A
+INFO:__main__:19-05-2024 11:41:36 - t_meule : 19 °C
+INFO:__main__:19-05-2024 11:41:36 - capt_rot_blut : 0 
+INFO:__main__:19-05-2024 11:41:36 - alarm_entret : 1 
+INFO:__main__:19-05-2024 11:41:36 - horametre : 1 
+INFO:__main__:19-05-2024 11:41:36 - retour_freq_meule : 0.0 
+INFO:__main__:19-05-2024 11:41:36 - stop_powerflex_vibrat : 1 
+INFO:__main__:19-05-2024 11:41:36 - reg_intens_meule : 2.95 A
+INFO:__main__:19-05-2024 11:41:36 - capt_ensach_alarm : 0 
+INFO:__main__:19-05-2024 11:41:36 - capt_bas_alarm : 0 
+INFO:__main__:19-05-2024 11:41:36 - intensite_meule : 0 
+INFO:__main__:19-05-2024 11:41:36 - arret_vibra : 0 
+INFO:__main__:19-05-2024 11:41:36 - succion_force : 0 
+INFO:__main__:19-05-2024 11:41:36 - vibra_eleve : 0 
+INFO:__main__:19-05-2024 11:41:36 - vidan_trem : 0 
+INFO:__main__:19-05-2024 11:41:36 - speed_ref_vibrat : 0.0 Hz
+INFO:__main__:19-05-2024 11:41:36 - start_powerflex_vibrat : 0 
+INFO:__main__:19-05-2024 11:41:36 - cv_manuel : 13.0 Hz
+WARNING:__main__:-------------------------------------------------------
+WARNING:__main__:Fin du Fichier de Logs du 19-05-2024 11:41:36 
+DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x7367abc27e20>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7367abd4e160>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7367aadaec00>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7367abd4dee0>
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_global
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_global
+DEBUG:botocore.configprovider:No configured endpoint found.
+DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+DEBUG:botocore.client:Registering retry handlers for service: s3
+DEBUG:botocore.utils:Registering S3 region redirector handler
+DEBUG:botocore.utils:Registering S3Express Identity Resolver
+DEBUG:boto3.resources.factory:Loading s3:s3
+DEBUG:boto3.resources.factory:Loading s3:Bucket
+DEBUG:boto3.resources.model:Renaming Bucket attribute name
+DEBUG:botocore.hooks:Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x7367ac9c6340>
+DEBUG:boto3.resources.action:Calling s3:put_object with {'Bucket': 'moulinlauzes', 'Key': '19-05-2024 11:41:36-ml.log', 'Body': <_io.BufferedReader name='19-05-2024 11:41:36-ml.log'>}
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x7367abc36840>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x7367abc35b20>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x7367abc37240>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x7367abc35a80>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x7367abc37c40>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x7367a9f176b0>>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x7367aae073e0>>
+DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x7367abc358a0>
+DEBUG:botocore.hooks:Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7367abc37e20>
+DEBUG:botocore.hooks:Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x7367a9f176b0>>
+DEBUG:botocore.regions:Calling endpoint provider with parameters: {'Bucket': 'moulinlauzes', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '19-05-2024 11:41:36-ml.log', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+DEBUG:botocore.regions:Endpoint provider result: https://moulinlauzes.s3.amazonaws.com
+DEBUG:botocore.regions:Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+DEBUG:botocore.regions:Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function conditionally_calculate_checksum at 0x7367abed3ec0>
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x7367abc35e40>
+DEBUG:botocore.handlers:Adding expect 100 continue header to request.
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x7367a9f17a10>>
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x7367abc34d60>
+DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x7367abc37380>
+DEBUG:botocore.endpoint:Making request for OperationModel(name=PutObject) with params: {'url_path': '/19-05-2024%2011%3A41%3A36-ml.log', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.34.105 md/Botocore#1.34.105 ua/2.0 os/linux#6.8.0-1008-aws md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.105 Resource', 'Content-MD5': 'VrqXbiOrY7ya2gtnN5UTsg==', 'Expect': '100-continue'}, 'body': <_io.BufferedReader name='19-05-2024 11:41:36-ml.log'>, 'auth_path': '/moulinlauzes/19-05-2024%2011%3A41%3A36-ml.log', 'url': 'https://moulinlauzes.s3.amazonaws.com/19-05-2024%2011%3A41%3A36-ml.log', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x7367aa5ca2d0>, 'has_streaming_input': True, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'moulinlauzes', 'params': {'Bucket': 'moulinlauzes', 'Key': '19-05-2024 11:41:36-ml.log', 'Body': <_io.BufferedReader name='19-05-2024 11:41:36-ml.log'>}}, 'input_params': {'Bucket': 'moulinlauzes', 'Key': '19-05-2024 11:41:36-ml.log'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7367aa5ca120>>
+DEBUG:botocore.hooks:Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7367aae073e0>>
+DEBUG:botocore.hooks:Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x7367abc35760>
+DEBUG:botocore.hooks:Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x7367abc37d80>
+DEBUG:botocore.hooks:Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7367a9f17a10>>
+DEBUG:botocore.auth:Calculating signature using v4 auth.
+DEBUG:botocore.auth:CanonicalRequest:
+PUT
+/19-05-2024%2011%3A41%3A36-ml.log
+
+content-md5:VrqXbiOrY7ya2gtnN5UTsg==
+host:moulinlauzes.s3.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20240519T094148Z
+x-amz-security-token:IQoJb3JpZ2luX2VjEJn//////////wEaCXVzLWVhc3QtMSJHMEUCIGcjXO9JID0Apnqnyk4Ct6Dy+Ja+RUP1U5b2GJBuunqdAiEA7hzhspb6WY2Prg6HpJ+R03zXsj9VarHkgO6CPol/3cMquwUIEhAAGgw3NzY3NzI1MjAyODUiDMOnxWZbUQDQ/kFQVSqYBe/IeVTkecvpkNcLqIJn/2bPccR3+H/XCXntxNLNDGJWGjwmw3nGWaF/Jaql3u6DvQgqFKMv0PhVm/4omvVqfOHmWI/r4VcCluIinDyftMBve3oBRxlSgCvCHJGzGu7qwtkXpOWGrz7PVyvx+OcwYm1fUr821GJy6Wop0381nN2PUDovL2kWDEm1uIHSxunsHQAdPOyUkDbdlfMO3BUE4sHrJL8tyclrjwRfznXA2J9D85DHEyLDbugpoiLIZli7HYB4Po+MnUx4xK4FWl+i2GN/aMzUNZX2kqMLRMIsFHBG0yohkgTUso2nD1LZwlkjwkDl6IZqYDQHbo13R9i9pGoQM1CnPHwGIt9mQjFi+VULWpc5beM7pBM3C6SbZAs549NTEqUFnVVq1ihAOulyYt4vmVbXTaJTJqmi3Et2DP4KMaI/DrevjMpIthxpz8CRWMUDZmZJNoUOZt4Bz5YBLosP4elAuveiORwTuclu2fOWhMmkudleDGpK2aQhbxxuzpR2XWmjhjGNoCmA/0khoRg0+mrGMVHIOsW6Y8x+8Xsnq6ceRqo1rZVYEmouiXjzuHzRsDxS4DnHmTy91KxO+OzTipvrwOvJhTt41aQlp3xYVQNNtLviaBM89PQ827r5zdj58lHZBjmG+fyblUsqeyhW/XGXA9/LR+fYSWgvAT+s2OpedS/rjsf+lTaddyUeMPBnPHFgcX2LYl9DeovOQ2bBfCRNPeEF4qJleHixofvbUbZQ822aHMbhUGsbnAw82jiSbYPglSooU3hRxUnEV9TcZ1vR/c5Mou7Nj2hzKsERzJizVG0oGFYK3qSQCmJxawwYDSCicY6Z91CmG+vxCcrMjQjs91o2pYUL3Gym2HCda36tcATHKHowlICnsgY6sQHGQFgyW/8tjdPR/NJqCjTzHkeInaUD3FjtCYAAC1GdUimxldc2kr47iRmiY5e1hcz9yKEc9cSlrXwuG4uXjZ5uWeUym7GCZEN04He6iGEDmXo3CkMJbFMsGeEw34YWgbhYHX0Kwy97n6Ez8Jpdpy161NQeuUPQj98g1XYBfnNvMxDJWTvRaQWwGI9gmTAU/cqU3JYJF7kjvAmdbLpdaHQWrYtrcWw7CwkIEfSyKkmwkrM=
+
+content-md5;host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+UNSIGNED-PAYLOAD
+DEBUG:botocore.auth:StringToSign:
+AWS4-HMAC-SHA256
+20240519T094148Z
+20240519/us-east-1/s3/aws4_request
+82fc62b18f70cb17b06f7f9762bfbe22e2ad22d2aef9995bdadf728edde43f85
+DEBUG:botocore.auth:Signature:
+6758b2fe356468124463c1512fc881fc5c64189521c473064c66c905a8df2d5d
+DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x7367abc37ba0>
+DEBUG:botocore.endpoint:Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://moulinlauzes.s3.amazonaws.com/19-05-2024%2011%3A41%3A36-ml.log, headers={'User-Agent': b'Boto3/1.34.105 md/Botocore#1.34.105 ua/2.0 os/linux#6.8.0-1008-aws md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.105 Resource', 'Content-MD5': b'VrqXbiOrY7ya2gtnN5UTsg==', 'Expect': b'100-continue', 'X-Amz-Date': b'20240519T094148Z', 'X-Amz-Security-Token': b'IQoJb3JpZ2luX2VjEJn//////////wEaCXVzLWVhc3QtMSJHMEUCIGcjXO9JID0Apnqnyk4Ct6Dy+Ja+RUP1U5b2GJBuunqdAiEA7hzhspb6WY2Prg6HpJ+R03zXsj9VarHkgO6CPol/3cMquwUIEhAAGgw3NzY3NzI1MjAyODUiDMOnxWZbUQDQ/kFQVSqYBe/IeVTkecvpkNcLqIJn/2bPccR3+H/XCXntxNLNDGJWGjwmw3nGWaF/Jaql3u6DvQgqFKMv0PhVm/4omvVqfOHmWI/r4VcCluIinDyftMBve3oBRxlSgCvCHJGzGu7qwtkXpOWGrz7PVyvx+OcwYm1fUr821GJy6Wop0381nN2PUDovL2kWDEm1uIHSxunsHQAdPOyUkDbdlfMO3BUE4sHrJL8tyclrjwRfznXA2J9D85DHEyLDbugpoiLIZli7HYB4Po+MnUx4xK4FWl+i2GN/aMzUNZX2kqMLRMIsFHBG0yohkgTUso2nD1LZwlkjwkDl6IZqYDQHbo13R9i9pGoQM1CnPHwGIt9mQjFi+VULWpc5beM7pBM3C6SbZAs549NTEqUFnVVq1ihAOulyYt4vmVbXTaJTJqmi3Et2DP4KMaI/DrevjMpIthxpz8CRWMUDZmZJNoUOZt4Bz5YBLosP4elAuveiORwTuclu2fOWhMmkudleDGpK2aQhbxxuzpR2XWmjhjGNoCmA/0khoRg0+mrGMVHIOsW6Y8x+8Xsnq6ceRqo1rZVYEmouiXjzuHzRsDxS4DnHmTy91KxO+OzTipvrwOvJhTt41aQlp3xYVQNNtLviaBM89PQ827r5zdj58lHZBjmG+fyblUsqeyhW/XGXA9/LR+fYSWgvAT+s2OpedS/rjsf+lTaddyUeMPBnPHFgcX2LYl9DeovOQ2bBfCRNPeEF4qJleHixofvbUbZQ822aHMbhUGsbnAw82jiSbYPglSooU3hRxUnEV9TcZ1vR/c5Mou7Nj2hzKsERzJizVG0oGFYK3qSQCmJxawwYDSCicY6Z91CmG+vxCcrMjQjs91o2pYUL3Gym2HCda36tcATHKHowlICnsgY6sQHGQFgyW/8tjdPR/NJqCjTzHkeInaUD3FjtCYAAC1GdUimxldc2kr47iRmiY5e1hcz9yKEc9cSlrXwuG4uXjZ5uWeUym7GCZEN04He6iGEDmXo3CkMJbFMsGeEw34YWgbhYHX0Kwy97n6Ez8Jpdpy161NQeuUPQj98g1XYBfnNvMxDJWTvRaQWwGI9gmTAU/cqU3JYJF7kjvAmdbLpdaHQWrYtrcWw7CwkIEfSyKkmwkrM=', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=ASIA3JW2ABFOSKVFSGD6/20240519/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=6758b2fe356468124463c1512fc881fc5c64189521c473064c66c905a8df2d5d', 'amz-sdk-invocation-id': b'2df7447c-7156-438f-a580-611a19d47186', 'amz-sdk-request': b'attempt=1', 'Content-Length': '1541'}>
+DEBUG:botocore.httpsession:Certificate path: /home/ubuntu/.venv/lib/python3.12/site-packages/certifi/cacert.pem
+DEBUG:botocore.awsrequest:Waiting for 100 Continue response.
+DEBUG:botocore.awsrequest:100 Continue response seen, now sending request body.
+DEBUG:botocore.parsers:Response headers: {'x-amz-id-2': 'fbGzpl1Sbdf603V9+Vnmtn2iQyAceAY365E3BmJ6o/kxBf14FLNAFnpg/rZeQ5CpekK2mxcffGKvFAcsVD9YugiP/Ar4615G', 'x-amz-request-id': 'BVN7XG1J32GMWD79', 'Date': 'Sun, 19 May 2024 09:41:49 GMT', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"56ba976e23ab63bc9ada0b67379513b2"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+DEBUG:botocore.parsers:Response body:
+b''
+DEBUG:botocore.hooks:Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7367a9f17980>
+DEBUG:botocore.retryhandler:No retry needed.
+DEBUG:botocore.hooks:Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x7367a9f176b0>>
+DEBUG:boto3.resources.action:Response: {'ResponseMetadata': {'RequestId': 'BVN7XG1J32GMWD79', 'HostId': 'fbGzpl1Sbdf603V9+Vnmtn2iQyAceAY365E3BmJ6o/kxBf14FLNAFnpg/rZeQ5CpekK2mxcffGKvFAcsVD9YugiP/Ar4615G', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': 'fbGzpl1Sbdf603V9+Vnmtn2iQyAceAY365E3BmJ6o/kxBf14FLNAFnpg/rZeQ5CpekK2mxcffGKvFAcsVD9YugiP/Ar4615G', 'x-amz-request-id': 'BVN7XG1J32GMWD79', 'date': 'Sun, 19 May 2024 09:41:49 GMT', 'x-amz-server-side-encryption': 'AES256', 'etag': '"56ba976e23ab63bc9ada0b67379513b2"', 'server': 'AmazonS3', 'content-length': '0'}, 'RetryAttempts': 0}, 'ETag': '"56ba976e23ab63bc9ada0b67379513b2"', 'ServerSideEncryption': 'AES256'}
+DEBUG:boto3.resources.factory:Loading s3:Object
+DEBUG:botocore.hooks:Event creating-resource-class.s3.Object: calling handler <function lazy_call.<locals>._handler at 0x7367ac9c62a0>
+INFO:__main__:19-05-2024 11:41:48 - capt_bas_moulin : 0 
+INFO:__main__:19-05-2024 11:41:48 - sign_ext_son : 0 
+INFO:__main__:19-05-2024 11:41:48 - capt_rot_blute : 0 
+INFO:__main__:19-05-2024 11:41:48 - inter_shunt_secu : 0 
+INFO:__main__:19-05-2024 11:41:48 - capt_ensach : 1 
+INFO:__main__:19-05-2024 11:41:48 - run_powerflex : 0 
+INFO:__main__:19-05-2024 11:41:48 - moteur_succion : 0 
+INFO:__main__:19-05-2024 11:41:48 - moteur_son : 0 
+INFO:__main__:19-05-2024 11:41:48 - battage : 0 
+INFO:__main__:19-05-2024 11:41:48 - out_sign_son : 0 
+INFO:__main__:19-05-2024 11:41:48 - moteur_bluterie : 0 
+INFO:__main__:19-05-2024 11:41:48 - courrant_meule : 0.0 A
+INFO:__main__:19-05-2024 11:41:48 - stop_powerflex_true : 1 
+INFO:__main__:19-05-2024 11:41:48 - stop_powerflex : 0 
+INFO:__main__:19-05-2024 11:41:48 - start_poxerflex : 0 
+INFO:__main__:19-05-2024 11:41:48 - start_bluterie : 0 
+INFO:__main__:19-05-2024 11:41:48 - current_meule : 0.0 A
+INFO:__main__:19-05-2024 11:41:48 - t_meule : 19 °C
+INFO:__main__:19-05-2024 11:41:48 - capt_rot_blut : 0 
+INFO:__main__:19-05-2024 11:41:48 - alarm_entret : 1 
+INFO:__main__:19-05-2024 11:41:48 - horametre : 1 
+INFO:__main__:19-05-2024 11:41:48 - retour_freq_meule : 0.0 
+INFO:__main__:19-05-2024 11:41:48 - stop_powerflex_vibrat : 1 
+INFO:__main__:19-05-2024 11:41:48 - reg_intens_meule : 2.95 A
+INFO:__main__:19-05-2024 11:41:48 - capt_ensach_alarm : 0 
+INFO:__main__:19-05-2024 11:41:48 - capt_bas_alarm : 0 
+INFO:__main__:19-05-2024 11:41:48 - intensite_meule : 0 
+INFO:__main__:19-05-2024 11:41:48 - arret_vibra : 0 
+INFO:__main__:19-05-2024 11:41:48 - succion_force : 0 
+INFO:__main__:19-05-2024 11:41:48 - vibra_eleve : 0 
+INFO:__main__:19-05-2024 11:41:48 - vidan_trem : 0 

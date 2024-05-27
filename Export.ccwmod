@@ -1,0 +1,170 @@
+<modbusServer Version="2.0">
+  <modbusRegister name="COILS">
+    <mapping variable="_IO_EM_DI_00" parent="Micro850" dataType="Bool" address="000001" va="0x41e">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_03" parent="Micro850" dataType="Bool" address="000002" va="0x421">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_04" parent="Micro850" dataType="Bool" address="000003" va="0x422">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_05" parent="Micro850" dataType="Bool" address="000004" va="0x423">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_06" parent="Micro850" dataType="Bool" address="000005" va="0x424">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_07" parent="Micro850" dataType="Bool" address="000006" va="0x425">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DO_00" parent="Micro850" dataType="Bool" address="000007" va="0x414">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DO_01" parent="Micro850" dataType="Bool" address="000008" va="0x415">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DO_02" parent="Micro850" dataType="Bool" address="000009" va="0x416">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DO_03" parent="Micro850" dataType="Bool" address="000010" va="0x417">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DO_05" parent="Micro850" dataType="Bool" address="000011" va="0x419">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="courrant_meule" parent="Micro850" dataType="Real" address="000012" va="0x46c">
+      <MBVarInfo ElemType="Real" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="stop_powerflex_true" parent="Micro850" dataType="Bool" address="000044" va="0x45c">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="stop_powerflex" parent="Micro850" dataType="AnyArray" address="000045" va="0x5cc">
+      <MBVarInfo ElemType="AnyArray" SubElemType="Bool" DataTypeSize="5">
+        <MBArrayInfo ArrayDimension="1">
+          <MBArrayDimensionInfo Index="0" Upper="4" Lower="0" />
+        </MBArrayInfo>
+      </MBVarInfo>
+    </mapping>
+    <mapping variable="start_poxerflex" parent="Micro850" dataType="AnyArray" address="000050" va="0x5d4">
+      <MBVarInfo ElemType="AnyArray" SubElemType="Bool" DataTypeSize="1">
+        <MBArrayInfo ArrayDimension="1">
+          <MBArrayDimensionInfo Index="0" Upper="0" Lower="0" />
+        </MBArrayInfo>
+      </MBVarInfo>
+    </mapping>
+    <mapping variable="start_bluterie" parent="Micro850" dataType="AnyArray" address="000051" va="0x5d8">
+      <MBVarInfo ElemType="AnyArray" SubElemType="Bool" DataTypeSize="2">
+        <MBArrayInfo ArrayDimension="1">
+          <MBArrayDimensionInfo Index="0" Upper="1" Lower="0" />
+        </MBArrayInfo>
+      </MBVarInfo>
+    </mapping>
+    <mapping variable="current_meule" parent="Micro850" dataType="AnyArray" address="000053" va="0x5dc">
+      <MBVarInfo ElemType="AnyArray" SubElemType="Real" DataTypeSize="4">
+        <MBArrayInfo ArrayDimension="1">
+          <MBArrayDimensionInfo Index="0" Upper="0" Lower="0" />
+        </MBArrayInfo>
+      </MBVarInfo>
+    </mapping>
+    <mapping variable="T_meule" parent="Micro850" dataType="AnyArray" address="000085" va="0x5e0">
+      <MBVarInfo ElemType="AnyArray" SubElemType="Int" DataTypeSize="2">
+        <MBArrayInfo ArrayDimension="1">
+          <MBArrayDimensionInfo Index="0" Upper="0" Lower="0" />
+        </MBArrayInfo>
+      </MBVarInfo>
+    </mapping>
+    <mapping variable="capt_rot_blut" parent="Micro850" dataType="AnyArray" address="000101" va="0x5e4">
+      <MBVarInfo ElemType="AnyArray" SubElemType="Bool" DataTypeSize="1">
+        <MBArrayInfo ArrayDimension="1">
+          <MBArrayDimensionInfo Index="0" Upper="0" Lower="0" />
+        </MBArrayInfo>
+      </MBVarInfo>
+    </mapping>
+    <mapping variable="alarm_entret" parent="Micro850" dataType="AnyArray" address="000102" va="0x5e8">
+      <MBVarInfo ElemType="AnyArray" SubElemType="Bool" DataTypeSize="1">
+        <MBArrayInfo ArrayDimension="1">
+          <MBArrayDimensionInfo Index="0" Upper="0" Lower="0" />
+        </MBArrayInfo>
+      </MBVarInfo>
+    </mapping>
+    <mapping variable="HORAMETRE" parent="Micro850" dataType="AnyArray" address="000103" va="0x5ec">
+      <MBVarInfo ElemType="AnyArray" SubElemType="Dint" DataTypeSize="4">
+        <MBArrayInfo ArrayDimension="1">
+          <MBArrayDimensionInfo Index="0" Upper="0" Lower="0" />
+        </MBArrayInfo>
+      </MBVarInfo>
+    </mapping>
+    <mapping variable="retour_freq_meule" parent="Micro850" dataType="Real" address="000135" va="0x470">
+      <MBVarInfo ElemType="Real" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="stop_powerflex_vibrat" parent="Micro850" dataType="Bool" address="000167" va="0x45d">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="reg_intens_meule" parent="Micro850" dataType="AnyArray" address="000168" va="0x5f4">
+      <MBVarInfo ElemType="AnyArray" SubElemType="Real" DataTypeSize="4">
+        <MBArrayInfo ArrayDimension="1">
+          <MBArrayDimensionInfo Index="0" Upper="0" Lower="0" />
+        </MBArrayInfo>
+      </MBVarInfo>
+    </mapping>
+    <mapping variable="capt_ensach_alarm" parent="Micro850" dataType="AnyArray" address="000200" va="0x5f8">
+      <MBVarInfo ElemType="AnyArray" SubElemType="Bool" DataTypeSize="1">
+        <MBArrayInfo ArrayDimension="1">
+          <MBArrayDimensionInfo Index="0" Upper="0" Lower="0" />
+        </MBArrayInfo>
+      </MBVarInfo>
+    </mapping>
+    <mapping variable="capt_bas_alarm" parent="Micro850" dataType="AnyArray" address="000201" va="0x604">
+      <MBVarInfo ElemType="AnyArray" SubElemType="Bool" DataTypeSize="1">
+        <MBArrayInfo ArrayDimension="1">
+          <MBArrayDimensionInfo Index="0" Upper="0" Lower="0" />
+        </MBArrayInfo>
+      </MBVarInfo>
+    </mapping>
+    <mapping variable="intensite_meule" parent="Micro850" dataType="AnyArray" address="000202" va="0x61c">
+      <MBVarInfo ElemType="AnyArray" SubElemType="Bool" DataTypeSize="1">
+        <MBArrayInfo ArrayDimension="1">
+          <MBArrayDimensionInfo Index="0" Upper="0" Lower="0" />
+        </MBArrayInfo>
+      </MBVarInfo>
+    </mapping>
+    <mapping variable="arret_vibra" parent="Micro850" dataType="AnyArray" address="000203" va="0x624">
+      <MBVarInfo ElemType="AnyArray" SubElemType="Bool" DataTypeSize="1">
+        <MBArrayInfo ArrayDimension="1">
+          <MBArrayDimensionInfo Index="0" Upper="0" Lower="0" />
+        </MBArrayInfo>
+      </MBVarInfo>
+    </mapping>
+    <mapping variable="succion_force" parent="Micro850" dataType="AnyArray" address="000204" va="0x628">
+      <MBVarInfo ElemType="AnyArray" SubElemType="Bool" DataTypeSize="1">
+        <MBArrayInfo ArrayDimension="1">
+          <MBArrayDimensionInfo Index="0" Upper="0" Lower="0" />
+        </MBArrayInfo>
+      </MBVarInfo>
+    </mapping>
+    <mapping variable="vibra_eleve" parent="Micro850" dataType="AnyArray" address="000205" va="0x62c">
+      <MBVarInfo ElemType="AnyArray" SubElemType="Bool" DataTypeSize="1">
+        <MBArrayInfo ArrayDimension="1">
+          <MBArrayDimensionInfo Index="0" Upper="0" Lower="0" />
+        </MBArrayInfo>
+      </MBVarInfo>
+    </mapping>
+    <mapping variable="vidan_trem" parent="Micro850" dataType="AnyArray" address="000206" va="0x630">
+      <MBVarInfo ElemType="AnyArray" SubElemType="Bool" DataTypeSize="1">
+        <MBArrayInfo ArrayDimension="1">
+          <MBArrayDimensionInfo Index="0" Upper="0" Lower="0" />
+        </MBArrayInfo>
+      </MBVarInfo>
+    </mapping>
+    <mapping variable="speed_ref_vibrat@modbus_vibrateur" parent="modbus_vibrateur" dataType="Real" address="000207" va="0x480">
+      <MBVarInfo ElemType="Real" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="start_powerflex_vibrat@modbus_vibrateur" parent="modbus_vibrateur" dataType="Bool" address="000239" va="0x463">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="cv_manuel@modbus_vibrateur" parent="modbus_vibrateur" dataType="Real" address="000240" va="0x484">
+      <MBVarInfo ElemType="Real" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+  </modbusRegister>
+</modbusServer>

@@ -1,0 +1,36 @@
+24-05-2024 17:31:22 - capt_bas_moulin : 0 
+24-05-2024 17:31:22 - sign_ext_son : 0 
+24-05-2024 17:31:22 - capt_rot_blute : 0 
+24-05-2024 17:31:22 - inter_shunt_secu : 0 
+24-05-2024 17:31:22 - capt_ensach : 1 
+24-05-2024 17:31:22 - run_powerflex : 0 
+24-05-2024 17:31:22 - moteur_succion : 0 
+24-05-2024 17:31:22 - moteur_son : 0 
+24-05-2024 17:31:22 - battage : 0 
+24-05-2024 17:31:22 - out_sign_son : 0 
+24-05-2024 17:31:22 - moteur_bluterie : 0 
+24-05-2024 17:31:22 - courrant_meule : 0.0 A
+24-05-2024 17:31:22 - stop_powerflex_true : 1 
+24-05-2024 17:31:22 - stop_powerflex : 0 
+24-05-2024 17:31:22 - start_poxerflex : 0 
+24-05-2024 17:31:22 - start_bluterie : 0 
+24-05-2024 17:31:22 - current_meule : 0.0 A
+24-05-2024 17:31:22 - t_meule : 27 °C
+24-05-2024 17:31:22 - capt_rot_blut : 0 
+24-05-2024 17:31:22 - alarm_entret : 1 
+24-05-2024 17:31:22 - horametre : 1 
+24-05-2024 17:31:22 - retour_freq_meule : 0.0 
+24-05-2024 17:31:22 - stop_powerflex_vibrat : 1 
+24-05-2024 17:31:22 - reg_intens_meule : 3.0 A
+24-05-2024 17:31:22 - capt_ensach_alarm : 0 
+24-05-2024 17:31:22 - capt_bas_alarm : 0 
+24-05-2024 17:31:22 - intensite_meule : 0 
+24-05-2024 17:31:22 - arret_vibra : 0 
+24-05-2024 17:31:22 - succion_force : 0 
+24-05-2024 17:31:22 - vibra_eleve : 0 
+24-05-2024 17:31:22 - vidan_trem : 0 
+24-05-2024 17:31:22 - speed_ref_vibrat : 0.0 Hz
+24-05-2024 17:31:22 - start_powerflex_vibrat : 0 
+24-05-2024 17:31:22 - cv_manuel : 24.48 Hz
+-------------------------------------------------------
+Fin du Fichier de Logs du 24-05-2024 17:31:22 
