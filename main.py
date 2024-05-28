@@ -166,7 +166,7 @@ try:
       logger.info('%s - %s : %s %s', current_dl, name, valeur, unit)
     logger.warning("-------------------------------------------------------")
     logger.warning("Fin du Fichier de Logs du %s ", current_dl)
-    name_file = current_dl + "-" + "ml.log"
+    name_file = "Logs/" + current_dl + "-" + "ml.log"
     shutil.copyfile(current_dl,name_file)
 
     # Fermeture du Fichier de Logs
