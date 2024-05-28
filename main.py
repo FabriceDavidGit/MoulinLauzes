@@ -11,7 +11,7 @@ import configparser
 from influxdb_manager import InfluxDBManager
 from mysql_manager import MySQLManager
 from import_ccwmod_manager import ImportCCWManager
-
+#Push
 ## Fontion qui Permet la Conversion de Valeur en 32 Bits en Réel
 def convert_32bits_reel(value_32bits):
   # Initialisation des Variables
