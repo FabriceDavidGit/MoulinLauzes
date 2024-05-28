@@ -12,4 +12,3 @@ def lambda_handler(event, context):
         fileWrite.writelines("\n")
     return {
     }
-#Push
