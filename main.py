@@ -176,6 +176,7 @@ try:
       handler.close()
 
     # Copie du Fichier de Logs dans un Bucket S3
+    os.remove(current_dl)
     s3 = boto3.resource('s3')
     with open(name_file, 'rb') as data:
       s3.Bucket(config['AWS']['bucket']).put_object(Key=name_file, Body=data)
