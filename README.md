@@ -4,7 +4,9 @@ Le projet a été réalisé avec un compte AWS Academy, il faut :
 * Une Adresse IP Elastique Associée à l'Instance EC2
 * Un Bucket S3 : moulinlauzes
 * Une Base de Données RDS si vous n'utilisez pas MySQL Server et un Accès à AWS Secrets Manager
-* Une Connexion VPN comprenant une Passerelle Cient, une Passerelle Réseau Privé Virtuel et une Connexion VPN Site à Site
+* Une Connexion VPN comprenant une Passerelle Client, une Passerelle Réseau Privé Virtuel et une Connexion VPN Site à Site
+
+![plot](./Images/Schéma_Infrastructure_AWS.png)
 
 > [!CAUTION]
 > Ouvrir les Ports 22, 3000, 3306 et 8086 pour les Security Groups de l'Instance EC2
@@ -15,7 +17,7 @@ Le projet a été réalisé avec un compte AWS Academy, il faut :
 > [!WARNING]
 > Mettre le Rôle IAM LabInstanceProfile sur l'Instance EC2 pour Avoir les Credentials sur le Bucket S3 et la Base de Donnée RDS :
 >
-> ![plot](./IAM_Role.png)
+> ![plot](./Images/IAM_Role.png)
 
 ## Install apt
 ~~~ shell
@@ -28,49 +30,31 @@ sudo apt install -y unzip
 
 ~~~
 
-## Install InfluxDB
-~~~ shell
-sudo tee /etc/apt/sources.list.d/influxdb.list<<EOF
-deb [signed-by=/usr/share/keyrings/influxdb-keyring.gpg] https://repos.influxdata.com/ubuntu jammy stable
-EOF
-curl -fsSL https://repos.influxdata.com/influxdata-archive_compat.key|sudo gpg --dearmor -o /usr/share/keyrings/influxdb-keyring.gpg
-sudo apt -y update
-sudo apt -y install influxdb2
-sudo influxdb start
-sudo systemctl enable influxdb.service
-~~~
-
-> [!IMPORTANT]
-> Finir la Configuration : http://@IP_Elastique_AWS:8086  
-> Bucket = MoulinLauzes
-
 ## Amazon RDS
 > [!IMPORTANT]
 > Bien Respecter les Consignes de l'Installation d'Amazon RDS :
 > 
-> ![plot](./Amazon_RDS_1.png)
+> ![plot](./Images/Amazon_RDS_1.png)
 > 
-> ![plot](./Amazon_RDS_2.png)
+> ![plot](./Images/Amazon_RDS_2.png)
 > 
-> ![plot](./Amazon_RDS_3.png)
-
+> ![plot](./Images/Amazon_RDS_3.png)
 
 > [!TIP]
 > Gérer la Rotation des Mots de Passe aves AWS Secrets Manager et Attribuer la Sécurisation de l'Accès à la Base de Données avec un Rôle IAM :
 > 
-> ![plot](./AWS_Secrets_Manager.png)
+> ![plot](./Images/AWS_Secrets_Manager.png)
 > 
-> ![plot](./Amazon_RDS_Modify_Role_IAM.png)
+> ![plot](./Images/Amazon_RDS_Modify_Role_IAM.png)
 
 > [!CAUTION]
 > Configurer les Securitys Groups de votre Instance EC2 avec l'Assistant d'Amazon RDS :
 > 
-> ![plot](./Amazon_RDS_Configure_EC2_1.png)
+> ![plot](./Images/Amazon_RDS_Configure_EC2_1.png)
 > 
-> ![plot](./Amazon_RDS_Configure_EC2_2.png)
+> ![plot](./Images/Amazon_RDS_Configure_EC2_2.png)
 > 
-> ![plot](./Amazon_RDS_Configure_EC2_3.png)
-
+> ![plot](./Images/Amazon_RDS_Configure_EC2_3.png)
 
 > [!TIP]
 > Un Script (Fonctionne avec le *Config.ini*) Est Fourni pour la Création de la Base de Données avec Amazon RDS, Pensez à l'Utiliser 😄 :
@@ -175,7 +159,32 @@ sudo systemctl enable grafana-server.service
 ~~~
 
 > [!IMPORTANT]
-> Accès à Grafana : http://@IP_Elastique_AWS:3000
+> Accès à Grafana : http://@IP_Elastique_AWS:3000 :
+>
+> ![plot](./Images/Grafana.png)
+
+> [!TIP]
+> Pour Sécuriser Grafana en HTTPS : https://grafana.com/docs/grafana/latest/setup-grafana/set-up-https/
+
+## Install InfluxDB
+~~~ shell
+sudo tee /etc/apt/sources.list.d/influxdb.list<<EOF
+deb [signed-by=/usr/share/keyrings/influxdb-keyring.gpg] https://repos.influxdata.com/ubuntu jammy stable
+EOF
+curl -fsSL https://repos.influxdata.com/influxdata-archive_compat.key|sudo gpg --dearmor -o /usr/share/keyrings/influxdb-keyring.gpg
+sudo apt -y update
+sudo apt -y install influxdb2
+sudo influxdb start
+sudo systemctl enable influxdb.service
+~~~
+
+> [!IMPORTANT]
+> Finir la Configuration avec Bucket = MoulinLauzes : http://@IP_Elastique_AWS:8086 :
+> 
+> ![plot](./Images/InfluxDB.png)
+
+> [!TIP]
+> Pour Sécuriser InfluxDB en HTTPS : https://docs.influxdata.com/influxdb/v2/admin/security/enable-tls/
 
 ## Installer AWS CLI
 ~~~ shell
@@ -260,3 +269,51 @@ python ccwmod-moulin-lauzes-csv.py -m Export.ccwmod -o Export_Modbus.csv -p Moul
 
 > [!IMPORTANT]
 > Cet utilitaire a permis de créer la Classe **import_ccwmod_manager.py** mais il peut servir pour convertir le fichier en CSV.
+
+## Connexion VPN Site à Site
+Il faudra installer 3 composants AWS pour réaliser la connexion VPN site à site :
+* <ins>Une Passerelle Client</ins> :
+ 
+![plot](./Images/VPN_Passerelle_Client_1.png)
+
+![plot](./Images/VPN_Passerelle_Client_2.png)
+
+![plot](./Images/VPN_Passerelle_Client_3.png)
+
+* <ins>Une Passerelle Réseau Privé Virtuel</ins> :
+
+![plot](./Images/Passerelle_VPN_1.png)
+
+![plot](./Images/Passerelle_VPN_2.png)
+
+![plot](./Images/Passerelle_VPN_3.png)
+
+![plot](./Images/Passerelle_VPN_4.png)
+
+![plot](./Images/Passerelle_VPN_5.png)
+
+* <ins>Une Connexion VPN Site à Site</ins> :
+
+![plot](./Images/VPN_Site_a_Site_1.png)
+
+![plot](./Images/VPN_Site_a_Site_2.png)
+
+![plot](./Images/VPN_Site_a_Site_3.png)
+
+Il configurer votre routeur Internet, une Livebox est situé sur le réseau du Moulin, vous récupererez l'adresse IP et la Clé Partagé en téléchargeant le fichier de configuration du tunnel n°1 :
+
+![plot](./Images/Configuration_Livebox_VPN.png)
+
+Il faut configurer la propagation du routage dans la table du routage de la passerelle VPN :
+
+![plot](./Images/Propagation_Table_Routage_AWS_1.png)
+
+![plot](./Images/Propagation_Table_Routage_AWS_2.png)
+
+![plot](./Images/Propagation_Table_Routage_AWS_3.png)
+
+Il faut configurer les options du tunnel n°1 AWS avec les configurations par défaut d'un tunnel sur une Livebox :
+
+![plot](./Images/Configuration_VPN_Tunnel_1.png)
+
+![plot](./Images/Configuration_VPN_Tunnel_2.png)
