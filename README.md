@@ -319,3 +319,9 @@ Il faut configurer les options du tunnel n°1 AWS avec les configurations par d�
 ![plot](./Images/AWS_VPN_Site_a_Site_Configuration_Tunnel_1_2.png)
 
 ![plot](./Images/AWS_VPN_Site_a_Site_Configuration_Tunnel_1_3.png)
+
+Quand le Tunnel sera monté, vous pourrez le visualiser dans la console d'AWS et de la Livebox :
+
+![plot](./Images/AWS_VPN Site_a_Site_Test.png)
+
+![plot](./Images/Livebox_Tunnel_1_Test.png)
