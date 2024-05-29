@@ -314,6 +314,8 @@ Il faut configurer la propagation du routage dans la table du routage de la pass
 
 Il faut configurer les options du tunnel n°1 AWS avec les configurations par défaut d'un tunnel sur une Livebox :
 
-![plot](./Images/Configuration_VPN_Tunnel_1.png)
+![plot](./Images/Configuration_VPN_AWS_Tunnel_1_1.png)
 
-![plot](./Images/Configuration_VPN_Tunnel_2.png)
+![plot](./Images/AWS_VPN_Site_a_Site_Configuration_Tunnel_1_2.png)
+
+![plot](./Images/AWS_VPN_Site_a_Site_Configuration_Tunnel_1_3.png)
