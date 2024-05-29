@@ -322,6 +322,6 @@ Il faut configurer les options du tunnel n°1 AWS dans la Console AWS et dnas le
 
 Quand le Tunnel sera monté, vous pourrez le visualiser dans la console d'AWS et de la Livebox :
 
-![plot](./Images/AWS_VPN Site_a_Site_Tunnel_1_Test.png)
+![plot](./Images/AWS_VPN_Site_a_Site_Tunnel_1_Test.png)
 
 ![plot](./Images/Livebox_Tunnel_1_Test.png)
