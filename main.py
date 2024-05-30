@@ -35,22 +35,25 @@ def convert_32bits_reel(value_32bits):
   value = round(value,2)
   return value
 
-## Fontion qui Permet la Conversion de Valeurs en Bits Quelque Soit la Longueur en Réel
+## Fontion qui Permet la Conversion de Valeurs en Bits Quelque Soit la Longueur en Entier Signé
 def convert_bits_int(value_bits):
   # Initialisation des Variables
   value = 0
+  signe = False
   # Inversion des Valeurs et Test du Signe
   value_bits.reverse()
   if value_bits[0] == True:
-    [not elem for elem in value_bits]
+    value_bits = [not elem for elem in value_bits]
+    signe = True
   # Conversion Booléen en Entier
   value_bits = [int(b) for b in value_bits]
   # Conversion en Entier
   for i in range(1,len(value_bits)):
     index = len(value_bits) - i - 1
+    # print (index)
     value = (int(value_bits[i]) * (2**index)) + value
   # Complément à 1 si de Signe
-  if value_bits[0] == True:
+  if signe == True:
     value = (-1 * (value + 1))
   return value
 
