@@ -1,0 +1,46 @@
+30-05-2024 17:06:21 - capt_bas_moulin : 0 
+INFO:__main__:30-05-2024 17:06:21 - capt_bas_moulin : 0 
+30-05-2024 17:06:21 - sign_ext_son : 0 
+INFO:__main__:30-05-2024 17:06:21 - sign_ext_son : 0 
+30-05-2024 17:06:21 - capt_rot_blute : 0 
+INFO:__main__:30-05-2024 17:06:21 - capt_rot_blute : 0 
+30-05-2024 17:06:21 - inter_shunt_secu : 0 
+INFO:__main__:30-05-2024 17:06:21 - inter_shunt_secu : 0 
+30-05-2024 17:06:21 - capt_ensach : 1 
+INFO:__main__:30-05-2024 17:06:21 - capt_ensach : 1 
+30-05-2024 17:06:21 - run_powerflex : 0 
+INFO:__main__:30-05-2024 17:06:21 - run_powerflex : 0 
+30-05-2024 17:06:21 - moteur_succion : 0 
+INFO:__main__:30-05-2024 17:06:21 - moteur_succion : 0 
+30-05-2024 17:06:21 - moteur_son : 0 
+INFO:__main__:30-05-2024 17:06:21 - moteur_son : 0 
+30-05-2024 17:06:21 - battage : 0 
+INFO:__main__:30-05-2024 17:06:21 - battage : 0 
+30-05-2024 17:06:21 - out_sign_son : 0 
+INFO:__main__:30-05-2024 17:06:21 - out_sign_son : 0 
+30-05-2024 17:06:21 - moteur_bluterie : 0 
+INFO:__main__:30-05-2024 17:06:21 - moteur_bluterie : 0 
+30-05-2024 17:06:21 - courrant_meule : 0.0 A
+INFO:__main__:30-05-2024 17:06:21 - courrant_meule : 0.0 A
+30-05-2024 17:06:21 - stop_powerflex_true : 1 
+INFO:__main__:30-05-2024 17:06:21 - stop_powerflex_true : 1 
+30-05-2024 17:06:21 - stop_powerflex : 1 
+INFO:__main__:30-05-2024 17:06:21 - stop_powerflex : 1 
+30-05-2024 17:06:21 - start_poxerflex : 0 
+INFO:__main__:30-05-2024 17:06:21 - start_poxerflex : 0 
+30-05-2024 17:06:21 - start_bluterie : 0 
+INFO:__main__:30-05-2024 17:06:21 - start_bluterie : 0 
+30-05-2024 17:06:21 - current_meule : 0.0 A
+INFO:__main__:30-05-2024 17:06:21 - current_meule : 0.0 A
+30-05-2024 17:06:21 - t_meule : 22 °C
+INFO:__main__:30-05-2024 17:06:21 - t_meule : 22 °C
+30-05-2024 17:06:21 - capt_rot_blut : 0 
+INFO:__main__:30-05-2024 17:06:21 - capt_rot_blut : 0 
+30-05-2024 17:06:21 - alarm_entret : 1 
+INFO:__main__:30-05-2024 17:06:21 - alarm_entret : 1 
+30-05-2024 17:06:21 - horametre : 1 
+INFO:__main__:30-05-2024 17:06:21 - horametre : 1 
+30-05-2024 17:06:21 - retour_freq_meule : 0.0 
+INFO:__main__:30-05-2024 17:06:21 - retour_freq_meule : 0.0 
+30-05-2024 17:06:21 - stop_powerflex_vibrat : 1 
+INFO:__main__:30-05-2024 17:06:21 - stop_powerflex_vibrat : 1 
