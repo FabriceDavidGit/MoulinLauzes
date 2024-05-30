@@ -1,21 +1,21 @@
 # Projet Agrégation DAVID Fabrice - SII Informatique - Session 2024
 Le projet a été réalisé avec un compte AWS Academy, il faut :
-* Une Instance EC2 sous Linux Ubuntu 24.04 - t2.large de Préférence sauf si vous Découpez les Services
-* Une Adresse IP Elastique Associée à l'Instance EC2
+* Une instance EC2 sous Linux Ubuntu 24.04 - t2.large de préférence sauf si vous découpez les services
+* Une adresse IP élastique associée à l'instance EC2
 * Un Bucket S3 : moulinlauzes
-* Une Base de Données RDS si vous n'utilisez pas MySQL Server et un Accès à AWS Secrets Manager
-* Une Connexion VPN comprenant une Passerelle Client, une Passerelle Réseau Privé Virtuel et une Connexion VPN Site à Site
+* Une base de données RDS si vous n'utilisez pas MySQL Server et un accès à AWS Secrets Manager
+* Une connexion VPN comprenant une passerelle client, une passerelle réseau privé virtuel et une connexion VPN Site à Site
 
 ![plot](./Images/Schéma_Infrastructure_AWS.png)
 
 > [!CAUTION]
-> Ouvrir les Ports 22, 3000, 3306 et 8086 pour les Security Groups de l'Instance EC2
+> Ouvrir les ports 22, 3000, 3306 et 8086 pour les Security Groups de l'instance EC2
 
 > [!TIP]
-> Ouvrir le Protocole ICMP pour les Security Groups de l'Instance EC2 pour les Tests
+> Ouvrir le protocole ICMP pour les Security Groups de l'instance EC2 pour les tests
 
 > [!WARNING]
-> Mettre le Rôle IAM LabInstanceProfile sur l'Instance EC2 pour Avoir les Credentials sur le Bucket S3 et la Base de Donnée RDS :
+> Mettre le rôle IAM LabInstanceProfile sur l'instance EC2 pour avoir les Credentials sur le Bucket S3 et la base de données RDS :
 >
 > ![plot](./Images/IAM_Role.png)
 
@@ -32,7 +32,7 @@ sudo apt install -y unzip
 
 ## Amazon RDS
 > [!IMPORTANT]
-> Bien Respecter les Consignes de l'Installation d'Amazon RDS :
+> Bien respecter les consignes de l'installation d'Amazon RDS :
 > 
 > ![plot](./Images/Amazon_RDS_1.png)
 > 
@@ -41,14 +41,14 @@ sudo apt install -y unzip
 > ![plot](./Images/Amazon_RDS_3.png)
 
 > [!TIP]
-> Gérer la Rotation des Mots de Passe aves AWS Secrets Manager et Attribuer la Sécurisation de l'Accès à la Base de Données avec un Rôle IAM :
+> Gérer la rotation des mots de passe aves AWS Secrets Manager et attribuer la sécurisation de l'accès à la base de données avec un rôle IAM :
 > 
 > ![plot](./Images/AWS_Secrets_Manager.png)
 > 
 > ![plot](./Images/Amazon_RDS_Modify_Role_IAM.png)
 
 > [!CAUTION]
-> Configurer les Securitys Groups de votre Instance EC2 avec l'Assistant d'Amazon RDS :
+> Configurer les Securitys Groups de votre instance EC2 avec l'assistant d'Amazon RDS :
 > 
 > ![plot](./Images/Amazon_RDS_Configure_EC2_1.png)
 > 
@@ -57,27 +57,27 @@ sudo apt install -y unzip
 > ![plot](./Images/Amazon_RDS_Configure_EC2_3.png)
 
 > [!TIP]
-> Un Script (Fonctionne avec le *Config.ini*) Est Fourni pour la Création de la Base de Données avec Amazon RDS, Pensez à l'Utiliser 😄 :
+> Un script (fonctionne avec le *Config.ini*) est fourni pour la création de la base de données avec Amazon RDS, pensez à l'utiliser 😄 :
 > ~~~ shell
 > python CreateTableDB.py
 > ~~~
 
 
-## Install MySQL Server Si vous n'Utilisez Pas Amazon RDS
+## Install MySQL Server si vous n'utilisez pas Amazon RDS
 ~~~ shell
 sudo apt install -y mysql-server
 sudo apt install -y phpmyadmin
 ~~~
 
 > [!TIP]
-> Choisir Apache2, Yes et Pas de Mot de Passe en Appuyant sur Entrée
+> Choisir Apache2, Yes et pas de mot de passe en appuyant sur Entrée
 
 ~~~ shell
 sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
 ~~~
 
 > [!IMPORTANT]
-> bind-address : Mettre l'Adresse IP Publique de votre Moulin si vous Utilisez une Machine Virtuelle
+> bind-address : Mettre l'adresse IP publique de votre moulin si vous utilisez une machine virtuelle
 
 ~~~ shell
 sudo mysql
@@ -147,7 +147,7 @@ sudo nano /etc/apt/sources.list.d/grafana.list
 ~~~
 
 > [!IMPORTANT]
-> Commenter la Ligne n°2 :  
+> Commenter la ligne n°2 :  
 > deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com stable main  
 > #deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com beta main
 
@@ -164,7 +164,7 @@ sudo systemctl enable grafana-server.service
 > ![plot](./Images/Grafana.png)
 
 > [!TIP]
-> Pour Sécuriser Grafana en HTTPS : https://grafana.com/docs/grafana/latest/setup-grafana/set-up-https/
+> Pour sécuriser Grafana en HTTPS : https://grafana.com/docs/grafana/latest/setup-grafana/set-up-https/
 
 ## Install InfluxDB
 ~~~ shell
@@ -179,12 +179,12 @@ sudo systemctl enable influxdb.service
 ~~~
 
 > [!IMPORTANT]
-> Finir la Configuration avec Bucket = MoulinLauzes : http://@IP_Elastique_AWS:8086 :
+> Finir la configuration avec Bucket = MoulinLauzes : http://@IP_Elastique_AWS:8086 :
 > 
 > ![plot](./Images/InfluxDB.png)
 
 > [!TIP]
-> Pour Sécuriser InfluxDB en HTTPS : https://docs.influxdata.com/influxdb/v2/admin/security/enable-tls/
+> Pour sécuriser InfluxDB en HTTPS : https://docs.influxdata.com/influxdb/v2/admin/security/enable-tls/
 
 ## Installer AWS CLI
 ~~~ shell
@@ -193,13 +193,13 @@ unzip awscliv2.zip
 sudo ./aws/install
 ~~~
 
-## Activer l'Environnement Virtuel
+## Activer l'environnement virtuel
 ~~~ shell
 python3 -m venv .venv
 ~~~
 
 > [!NOTE]
-> Commande à Taper Après Chaque Redémarrage du Serveur :
+> Commande à taper après chaque redémarrage du serveur :
 
 ~~~ shell
 source .venv/bin/activate
@@ -213,27 +213,27 @@ pip install pytz
 pip3 install influxdb-client
 pip install boto3
 ~~~
-## Désactiver l'Environnement Virtuel
+## Désactiver l'environnement virtuel
 ~~~ shell
 deactivate
 ~~~
-## Génération des Variables
+## Génération des variables
 Le fichier **config.py** permet de générer les variables dans un fichier de configuration *config.ini*, vous devrez donc modifier **config.py** et générer le fichier de configuration :
 ~~~ shell
 python config.py
 ~~~
-## Lancement du Programme
+## Lancement du programme
 Le programme se lance avec **main.py** :
 ~~~ shell
 python main.py
 ~~~
 ## GitHub
-Token Provisoire jusqu'au 17 Juin 2024 :
+Token provisoire jusqu'au 17 juin 2024 :
 ~~~ shell
 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
 ~~~
 
-Si Erreur de Branch :  
+Si erreur de Branch :  
 
 ~~~ shell
 git pull --ff-only
@@ -245,19 +245,19 @@ git pull --rebase
 
 
 ## CCWMOD to CSV File Conversion - Modify By Fabrice DAVID
-Cet utilitaire permet de convertir les adresses de Modbus exportées par Connected Components Workbench (CCW) dans un fichier CSV Adapté au Moulin Lauzes à Savoir un Export d'un CSV contenant :  
+Cet utilitaire permet de convertir les adresses de Modbus exportées par Connected Components Workbench (CCW) dans un fichier CSV Adapté au Moulin Lauzes à savoir l'export d'un CSV contenant :  
 
 * Name : Nom de la Variable dans CCW
 * Address : Adresse Modbus
-* Data Type et Sud Elem Type : Contient le Type de la Variable, il faut utiliser l'un ou l'autre pour définir le type
-* Data Type Size : Taille de la Donnée en Octets
-* Data Final Type : Type Défini par un Traitement Effectué
+* Data Type et Sud Elem Type : Contient le type de la variable, il faut utiliser l'un ou l'autre pour définir le type
+* Data Type Size : Taille de la donnée en octets
+* Data Final Type : Type défini par un traitement effectué
 
-<ins>Fichier Original de CCW</ins> : [Export.ccwmod](./Export.ccwmod)
+<ins>Fichier original de CCW</ins> : [Export.ccwmod](./Export.ccwmod)
 
-<ins>Exemple de Fichier Généré</ins> : [Export_Modbus.csv](./Files/Export_Modbus.csv)
+<ins>Exemple de fichier généré</ins> : [Export_Modbus.csv](./Files/Export_Modbus.csv)
 
-Voici une Commande pour de l'Aide sur la Syntaxe :
+Voici une commande pour de l'aide sur la syntaxe :
 ~~~ shell
 python ccwmod-moulin-lauzes-csv.py -h
 ~~~
@@ -268,7 +268,7 @@ python ccwmod-moulin-lauzes-csv.py -m Export.ccwmod -o Export_Modbus.csv -p Moul
 ~~~
 
 > [!IMPORTANT]
-> Cet utilitaire a permis de créer la Classe **import_ccwmod_manager.py** mais il peut servir pour convertir le fichier en CSV.
+> Cet utilitaire a permis de créer la classe **import_ccwmod_manager.py** mais il peut servir pour convertir le fichier en CSV.
 
 ## Connexion VPN Site à Site
 Il faudra installer 3 composants AWS pour réaliser la connexion VPN site à site :
@@ -278,7 +278,7 @@ Il faudra installer 3 composants AWS pour réaliser la connexion VPN site à sit
 
 ![plot](./Images/VPN_Passerelle_Client_3.png)
 
-* <ins>Une Passerelle Réseau Privé Virtuel</ins> :
+* <ins>Une passerelle réseau privé virtuel</ins> :
 
 ![plot](./Images/Passerelle_VPN_1.png)
 
@@ -290,7 +290,7 @@ Il faudra installer 3 composants AWS pour réaliser la connexion VPN site à sit
 
 ![plot](./Images/Passerelle_VPN_5.png)
 
-* <ins>Une Connexion VPN Site à Site</ins> :
+* <ins>Une connexion VPN Site à Site</ins> :
 
 ![plot](./Images/VPN_Site_a_Site_1.png)
 
@@ -310,7 +310,7 @@ Il faut configurer la propagation du routage dans la table du routage de la pass
 
 ![plot](./Images/Propagation_Table_Routage_AWS_3.png)
 
-Il faut configurer les options du tunnel n°1 AWS dans la Console AWS et dnas le Livebox :
+Il faut configurer les options du tunnel n°1 AWS dans la Console AWS et dans le Livebox :
 
 ![plot](./Images/AWS_VPN_Site_a_Site_Configuration_Tunnel_1_1.png)
 
@@ -320,7 +320,7 @@ Il faut configurer les options du tunnel n°1 AWS dans la Console AWS et dnas le
 
 ![plot](./Images/Livebox_Configuration_Tunnel_1.png)
 
-Quand le Tunnel sera monté, vous pourrez le visualiser dans la console d'AWS et de la Livebox :
+Quand le tunnel sera monté, vous pourrez le visualiser dans la console d'AWS et de la Livebox :
 
 ![plot](./Images/AWS_VPN_Site_a_Site_Tunnel_1_Test.png)
 
