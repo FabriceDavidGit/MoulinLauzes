@@ -32,7 +32,7 @@ sudo apt install -y unzip
 
 ## Amazon RDS
 > [!IMPORTANT]
-> Bien respecter les consignes de l'installation d'**Amazon RDS** :
+> <ins>Bien respecter les consignes de l'installation d'**Amazon RDS**</ins> :
 > 
 > ![plot](./Images/Amazon_RDS_1.png)
 > 
@@ -41,14 +41,14 @@ sudo apt install -y unzip
 > ![plot](./Images/Amazon_RDS_3.png)
 
 > [!TIP]
-> Gérer la rotation des mots de passe aves **AWS Secrets Manager** et attribuer la sécurisation de l'accès à la base de données avec un **rôle IAM** :
+> <ins>Gérer la rotation des mots de passe aves **AWS Secrets Manager** et attribuer la sécurisation de l'accès à la base de données avec un **rôle IAM**</ins> :
 > 
 > ![plot](./Images/AWS_Secrets_Manager.png)
 > 
 > ![plot](./Images/Amazon_RDS_Modify_Role_IAM.png)
 
 > [!CAUTION]
-> Configurer les **Securitys Groups** de votre **instance EC2** avec l'assistant d'**Amazon RDS** :
+> <ins>Configurer les **Securitys Groups** de votre **instance EC2** avec l'assistant d'**Amazon RDS**</ins> :
 > 
 > ![plot](./Images/Amazon_RDS_Configure_EC2_1.png)
 > 
