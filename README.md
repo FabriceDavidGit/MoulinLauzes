@@ -272,7 +272,7 @@ python ccwmod-moulin-lauzes-csv.py -m Export.ccwmod -o Export_Modbus.csv -p Moul
 
 ## Connexion VPN Site à Site
 Il faudra installer 3 composants AWS pour réaliser la connexion VPN site à site :
-* <ins>Une Passerelle Client</ins> :
+* <ins>Une passerelle client</ins> :
 
 ![plot](./Images/VPN_Passerelle_Client_2.png)
 
@@ -298,7 +298,7 @@ Il faudra installer 3 composants AWS pour réaliser la connexion VPN site à sit
 
 ![plot](./Images/VPN_Site_a_Site_3.png)
 
-Il configurer votre routeur Internet, une Livebox est situé sur le réseau du Moulin, vous récupererez l'adresse IP et la Clé Partagé en téléchargeant le fichier de configuration du tunnel n°1 :
+Il faudra configurer votre routeur Internet, une Livebox est situé sur le réseau du Moulin. Vous récupererez l'adresse IP côté AWS et la clé partagé en téléchargeant le fichier de configuration du tunnel n°1 :
 
 ![plot](./Images/Configuration_Livebox_VPN.png)
 
@@ -310,7 +310,7 @@ Il faut configurer la propagation du routage dans la table du routage de la pass
 
 ![plot](./Images/Propagation_Table_Routage_AWS_3.png)
 
-Il faut configurer les options du tunnel n°1 AWS dans la Console AWS et dans le Livebox :
+Il faut configurer les options du tunnel n°1 AWS dans la console AWS et dans la Livebox :
 
 ![plot](./Images/AWS_VPN_Site_a_Site_Configuration_Tunnel_1_1.png)
 
