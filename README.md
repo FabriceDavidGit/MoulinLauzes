@@ -77,7 +77,7 @@ sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
 ~~~
 
 > [!IMPORTANT]
-> bind-address : Mettre l'<ins>adresse IP publique</ins> de votre moulin si vous utilisez une machine virtuelle
+> **bind-address** : Mettre l'<ins>adresse IP publique</ins> de votre moulin si vous utilisez une machine virtuelle
 
 ~~~ shell
 sudo mysql
@@ -148,7 +148,7 @@ sudo nano /etc/apt/sources.list.d/grafana.list
 
 > [!IMPORTANT]
 > Commenter la ligne n°2 :  
-> deb [ signed-by=/etc/apt/keyrings/grafana.gpg ] https://apt.grafana.com stable main  signed-by=/etc/apt/keyrings/grafana.gpg
+> deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com stable main  signed-by=/etc/apt/keyrings/grafana.gpg
 > #deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com beta main
 
 ~~~ shell
@@ -159,12 +159,12 @@ sudo systemctl enable grafana-server.service
 ~~~
 
 > [!IMPORTANT]
-> Accès à Grafana : http://@IP_Elastique_AWS:3000 :
+> <ins>Accès à **Grafana** : http://@IP_Elastique_AWS:3000</ins> :
 >
 > ![plot](./Images/Grafana.png)
 
 > [!TIP]
-> Pour sécuriser Grafana en HTTPS : https://grafana.com/docs/grafana/latest/setup-grafana/set-up-https/
+> <ins>Pour sécuriser **Grafana** en **HTTPS**</ins> : https://grafana.com/docs/grafana/latest/setup-grafana/set-up-https/
 
 ## Install InfluxDB
 ~~~ shell
@@ -179,12 +179,12 @@ sudo systemctl enable influxdb.service
 ~~~
 
 > [!IMPORTANT]
-> Finir la configuration avec Bucket = MoulinLauzes : http://@IP_Elastique_AWS:8086 :
+> <ins>Finir la configuration avec **Bucket** = *MoulinLauzes* : http://@IP_Elastique_AWS:8086</ins> :
 > 
 > ![plot](./Images/InfluxDB.png)
 
 > [!TIP]
-> Pour sécuriser InfluxDB en HTTPS : https://docs.influxdata.com/influxdb/v2/admin/security/enable-tls/
+> <ins>Pour sécuriser **InfluxDB** en **HTTPS**</ins> : https://docs.influxdata.com/influxdb/v2/admin/security/enable-tls/
 
 ## Installer AWS CLI
 ~~~ shell
@@ -199,7 +199,7 @@ python3 -m venv .venv
 ~~~
 
 > [!NOTE]
-> Commande à taper après chaque redémarrage du serveur :
+> <ins>Commande à taper après chaque redémarrage du serveur</ins> :
 
 ~~~ shell
 source .venv/bin/activate
@@ -228,12 +228,12 @@ Le programme se lance avec **main.py** :
 python main.py
 ~~~
 ## GitHub
-Token provisoire jusqu'au 17 juin 2024 :
+<ins>**Token** provisoire jusqu'au 17 juin 2024</ins> :
 ~~~ shell
 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
 ~~~
 
-Si erreur de Branch :  
+<ins>Si erreur de Branch</ins> :  
 
 ~~~ shell
 git pull --ff-only
@@ -245,33 +245,33 @@ git pull --rebase
 
 
 ## CCWMOD to CSV File Conversion - Modify By Fabrice DAVID
-Cet utilitaire permet de convertir les adresses de Modbus exportées par Connected Components Workbench (CCW) dans un fichier CSV Adapté au Moulin Lauzes à savoir l'export d'un CSV contenant :  
+Cet utilitaire permet de convertir les adresses de **Modbus** exportées par **Connected Components Workbench (CCW)** dans un fichier **CSV** adapté au Moulin Lauzes, il contient :  
 
-* Name : Nom de la Variable dans CCW
-* Address : Adresse Modbus
-* Data Type et Sud Elem Type : Contient le type de la variable, il faut utiliser l'un ou l'autre pour définir le type
-* Data Type Size : Taille de la donnée en octets
-* Data Final Type : Type défini par un traitement effectué
+* <ins>Name</ins> : Nom de la Variable dans CCW
+* <ins>Address</ins> : Adresse Modbus
+* <ins>Data Type et Sud Elem Type</ins> : Contient le type de la variable, il faut utiliser l'un ou l'autre pour définir le type
+* <ins>Data Type Size</ins> : Taille de la donnée en octets
+* <ins>Data Final Type</ins> : Type défini par un traitement effectué
 
 <ins>Fichier original de CCW</ins> : [Export.ccwmod](./Export.ccwmod)
 
 <ins>Exemple de fichier généré</ins> : [Export_Modbus.csv](./Files/Export_Modbus.csv)
 
-Voici une commande pour de l'aide sur la syntaxe :
+<ins>Voici une commande pour de l'aide sur la syntaxe</ins> :
 ~~~ shell
 python ccwmod-moulin-lauzes-csv.py -h
 ~~~
-Exemple :
+<ins>Exemple</ins> :
 
 ~~~ shell
 python ccwmod-moulin-lauzes-csv.py -m Export.ccwmod -o Export_Modbus.csv -p Moulin_Lauzes_ -r
 ~~~
 
 > [!IMPORTANT]
-> Cet utilitaire a permis de créer la classe **import_ccwmod_manager.py** mais il peut servir pour convertir le fichier en CSV.
+> Cet utilitaire a permis de créer la classe **import_ccwmod_manager.py** mais il peut servir pour convertir le fichier en **CSV**.
 
 ## Connexion VPN Site à Site
-Il faudra installer 3 composants AWS pour réaliser la connexion VPN site à site :
+Il faudra installer 3 **composants AWS** pour réaliser la connexion **VPN site à site** :
 * <ins>Une passerelle client</ins> :
 
 ![plot](./Images/VPN_Passerelle_Client_2.png)
@@ -298,11 +298,11 @@ Il faudra installer 3 composants AWS pour réaliser la connexion VPN site à sit
 
 ![plot](./Images/VPN_Site_a_Site_3.png)
 
-Il faudra configurer votre routeur Internet, une Livebox est situé sur le réseau du Moulin. Vous récupererez l'adresse IP côté AWS et la clé partagé en téléchargeant le fichier de configuration du tunnel n°1 :
+<ins>Il faudra configurer votre **routeur Internet**, une **Livebox** est situé sur le réseau du Moulin. Vous récupererez l'**adresse IP côté AWS** et la **clé partagé** en téléchargeant le fichier de configuration du tunnel n°1</ins> :
 
 ![plot](./Images/Configuration_Livebox_VPN.png)
 
-Il faut configurer la propagation du routage dans la table du routage de la passerelle VPN :
+<ins>Il faut configurer la propagation du routage dans la table du routage de la passerelle VPN</ins> :
 
 ![plot](./Images/Propagation_Table_Routage_AWS_1.png)
 
@@ -310,7 +310,7 @@ Il faut configurer la propagation du routage dans la table du routage de la pass
 
 ![plot](./Images/Propagation_Table_Routage_AWS_3.png)
 
-Il faut configurer les options du tunnel n°1 AWS dans la console AWS et dans la Livebox :
+<ins>Il faut configurer les options du tunnel n°1 AWS dans la console AWS et dans la Livebox</ins> :
 
 ![plot](./Images/AWS_VPN_Site_a_Site_Configuration_Tunnel_1_1.png)
 
@@ -320,7 +320,7 @@ Il faut configurer les options du tunnel n°1 AWS dans la console AWS et dans la
 
 ![plot](./Images/Livebox_Configuration_Tunnel_1.png)
 
-Quand le tunnel sera monté, vous pourrez le visualiser dans la console d'AWS et de la Livebox :
+<ins>Quand le tunnel sera monté, vous pourrez le visualiser dans la console d'AWS et de la Livebox</ins> :
 
 ![plot](./Images/AWS_VPN_Site_a_Site_Tunnel_1_Test.png)
 
