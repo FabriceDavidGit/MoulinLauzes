@@ -15,7 +15,7 @@ Le projet a été réalisé avec un compte **AWS Academy**, il faut :
 > Ouvrir le **protocole ICMP** pour les **Security Groups** de l'**instance EC2** pour les tests
 
 > [!WARNING]
-> Mettre le **rôle IAM** <ins>LabInstanceProfile</ins> sur l'**instance EC2** pour avoir les **Credentials** sur le **Bucket S3** et la **base de données RDS** :
+> <ins>Mettre le **rôle IAM** <ins>LabInstanceProfile</ins> sur l'**instance EC2** pour avoir les **Credentials** sur le **Bucket S3** et la **base de données RDS**</ins> :
 >
 > ![plot](./Images/IAM_Role.png)
 
