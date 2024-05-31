@@ -200,7 +200,6 @@ python3 -m venv .venv
 
 > [!NOTE]
 > <ins>Commande à taper après chaque redémarrage du serveur</ins> :
-
 > ~~~ shell
 > source .venv/bin/activate
 > ~~~
@@ -247,13 +246,13 @@ git pull --rebase
 ## CCWMOD to CSV File Conversion - Modify By Fabrice DAVID
 <ins>Cet utilitaire permet de convertir les adresses de **Modbus** exportées par **Connected Components Workbench (CCW)** dans un fichier **CSV** adapté au Moulin Lauzes, il contient</ins> :  
 
-* <ins>Name</ins> : Nom de la Variable dans CCW
-* <ins>Address</ins> : Adresse Modbus
+* <ins>Name</ins> : Nom de la variable dans **CCW**
+* <ins>Address</ins> : Adresse **Modbus**
 * <ins>Data Type et Sud Elem Type</ins> : Contient le type de la variable, il faut utiliser l'un ou l'autre pour définir le type
 * <ins>Data Type Size</ins> : Taille de la donnée en octets
 * <ins>Data Final Type</ins> : Type défini par un traitement effectué
 
-<ins>Fichier original de CCW</ins> : [Export.ccwmod](./Export.ccwmod)
+<ins>Fichier original de **CCW**</ins> : [Export.ccwmod](./Export.ccwmod)
 
 <ins>Exemple de fichier généré</ins> : [Export_Modbus.csv](./Files/Export_Modbus.csv)
 
@@ -278,7 +277,7 @@ python ccwmod-moulin-lauzes-csv.py -m Export.ccwmod -o Export_Modbus.csv -p Moul
 
 ![plot](./Images/VPN_Passerelle_Client_3.png)
 
-* <ins>Une passerelle réseau privé virtuel</ins> :
+* <ins>Une **passerelle réseau privé virtuel**</ins> :
 
 ![plot](./Images/Passerelle_VPN_1.png)
 
@@ -290,7 +289,7 @@ python ccwmod-moulin-lauzes-csv.py -m Export.ccwmod -o Export_Modbus.csv -p Moul
 
 ![plot](./Images/Passerelle_VPN_5.png)
 
-* <ins>Une connexion VPN Site à Site</ins> :
+* <ins>Une **connexion VPN site à site**</ins> :
 
 ![plot](./Images/VPN_Site_a_Site_1.png)
 
@@ -298,11 +297,11 @@ python ccwmod-moulin-lauzes-csv.py -m Export.ccwmod -o Export_Modbus.csv -p Moul
 
 ![plot](./Images/VPN_Site_a_Site_3.png)
 
-<ins>Il faudra configurer votre **routeur Internet**, une **Livebox** est situé sur le réseau du Moulin. Vous récupererez l'**adresse IP côté AWS** et la **clé partagé** en téléchargeant le fichier de configuration du tunnel n°1</ins> :
+<ins>Il faudra configurer votre **routeur Internet**, une **Livebox** est situé sur le réseau du Moulin. Vous récupererez l'**adresse IP côté AWS** et la **clé partagé** en téléchargeant le fichier de configuration du **tunnel n°1**</ins> :
 
 ![plot](./Images/Configuration_Livebox_VPN.png)
 
-<ins>Il faut configurer la propagation du routage dans la table du routage de la passerelle VPN</ins> :
+<ins>Il faut configurer la propagation du routage dans la **table du routage** de la **passerelle VPN**</ins> :
 
 ![plot](./Images/Propagation_Table_Routage_AWS_1.png)
 
@@ -310,7 +309,7 @@ python ccwmod-moulin-lauzes-csv.py -m Export.ccwmod -o Export_Modbus.csv -p Moul
 
 ![plot](./Images/Propagation_Table_Routage_AWS_3.png)
 
-<ins>Il faut configurer les options du tunnel n°1 AWS dans la console AWS et dans la Livebox</ins> :
+<ins>Il faut configurer les options du **tunnel n°1** dans la **console AWS** et dans la **Livebox**</ins> :
 
 ![plot](./Images/AWS_VPN_Site_a_Site_Configuration_Tunnel_1_1.png)
 
@@ -320,7 +319,7 @@ python ccwmod-moulin-lauzes-csv.py -m Export.ccwmod -o Export_Modbus.csv -p Moul
 
 ![plot](./Images/Livebox_Configuration_Tunnel_1.png)
 
-<ins>Quand le tunnel sera monté, vous pourrez le visualiser dans la console d'AWS et de la Livebox</ins> :
+<ins>Quand le tunnel sera monté, vous pourrez le visualiser dans la **console d'AWS** et de la **Livebox**</ins> :
 
 ![plot](./Images/AWS_VPN_Site_a_Site_Tunnel_1_Test.png)
 
