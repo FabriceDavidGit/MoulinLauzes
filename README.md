@@ -201,9 +201,9 @@ python3 -m venv .venv
 > [!NOTE]
 > <ins>Commande à taper après chaque redémarrage du serveur</ins> :
 
-~~~ shell
-source .venv/bin/activate
-~~~
+> ~~~ shell
+> source .venv/bin/activate
+> ~~~
 ## Install pip
 ~~~ shell
 pip3 install pyModbusTCP
@@ -218,12 +218,12 @@ pip install boto3
 deactivate
 ~~~
 ## Génération des variables
-Le fichier **config.py** permet de générer les variables dans un fichier de configuration *config.ini*, vous devrez donc modifier **config.py** et générer le fichier de configuration :
+<ins>Le fichier **config.py** permet de générer les variables dans un fichier de configuration *config.ini*, vous devrez donc modifier **config.py** et générer le fichier de configuration</ins> :
 ~~~ shell
 python config.py
 ~~~
 ## Lancement du programme
-Le programme se lance avec **main.py** :
+<ins>Le programme se lance avec **main.py**</ins> :
 ~~~ shell
 python main.py
 ~~~
@@ -245,7 +245,7 @@ git pull --rebase
 
 
 ## CCWMOD to CSV File Conversion - Modify By Fabrice DAVID
-Cet utilitaire permet de convertir les adresses de **Modbus** exportées par **Connected Components Workbench (CCW)** dans un fichier **CSV** adapté au Moulin Lauzes, il contient :  
+<ins>Cet utilitaire permet de convertir les adresses de **Modbus** exportées par **Connected Components Workbench (CCW)** dans un fichier **CSV** adapté au Moulin Lauzes, il contient</ins> :  
 
 * <ins>Name</ins> : Nom de la Variable dans CCW
 * <ins>Address</ins> : Adresse Modbus
@@ -271,7 +271,7 @@ python ccwmod-moulin-lauzes-csv.py -m Export.ccwmod -o Export_Modbus.csv -p Moul
 > Cet utilitaire a permis de créer la classe **import_ccwmod_manager.py** mais il peut servir pour convertir le fichier en **CSV**.
 
 ## Connexion VPN Site à Site
-Il faudra installer 3 **composants AWS** pour réaliser la connexion **VPN site à site** :
+<ins>Il faudra installer 3 **composants AWS** pour réaliser la connexion **VPN site à site**</ins> :
 * <ins>Une passerelle client</ins> :
 
 ![plot](./Images/VPN_Passerelle_Client_2.png)
