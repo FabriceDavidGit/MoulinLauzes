@@ -4,7 +4,7 @@ Le projet a été réalisé avec un compte **AWS Academy**, il faut :
 * Une **adresse IP élastique** associée à l'**instance EC2**
 * Un **Bucket S3** : <ins>moulinlauzes</ins>
 * Une **base de données RDS** si vous n'utilisez pas **MySQL Server** et un accès à **AWS Secrets Manager**
-* Une **connexion VPN** comprenant une **passerelle client**, une **passerelle réseau privé virtuel** et une **connexion VPN Site à Site**
+* Une **connexion VPN** comprenant une **passerelle client**, une **passerelle réseau privé virtuel** et une **connexion VPN site à site**
 
 ![plot](./Images/Schéma_Infrastructure_AWS.png)
 
