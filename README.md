@@ -2,7 +2,7 @@
 Le projet a été réalisé avec un compte **AWS Academy**, il faut :
 * Une **instance EC2** sous **Linux Ubuntu 24.04** - **t2.large** de préférence sauf si vous découpez les services
 * Une **adresse IP élastique** associée à l'**instance EC2**
-* Un **Bucket S3** : ==moulinlauzes==.
+* Un **Bucket S3** : <ins>moulinlauzes==</ins>
 * Une base de données RDS si vous n'utilisez pas MySQL Server et un accès à AWS Secrets Manager
 * Une connexion VPN comprenant une passerelle client, une passerelle réseau privé virtuel et une connexion VPN Site à Site
 
