@@ -2,20 +2,20 @@
 Le projet a été réalisé avec un compte **AWS Academy**, il faut :
 * Une **instance EC2** sous **Linux Ubuntu 24.04** - **t2.large** de préférence sauf si vous découpez les services
 * Une **adresse IP élastique** associée à l'**instance EC2**
-* Un **Bucket S3** : <ins>moulinlauzes==</ins>
-* Une base de données RDS si vous n'utilisez pas MySQL Server et un accès à AWS Secrets Manager
-* Une connexion VPN comprenant une passerelle client, une passerelle réseau privé virtuel et une connexion VPN Site à Site
+* Un **Bucket S3** : <ins>moulinlauzes</ins>
+* Une **base de données RDS** si vous n'utilisez pas **MySQL Server** et un accès à **AWS Secrets Manager**
+* Une **connexion VPN** comprenant une **passerelle client**, une **passerelle réseau privé virtuel** et une **connexion VPN Site à Site**
 
 ![plot](./Images/Schéma_Infrastructure_AWS.png)
 
 > [!CAUTION]
-> Ouvrir les ports 22, 3000, 3306 et 8086 pour les Security Groups de l'instance EC2
+> Ouvrir les ports <ins>22</ins>, <ins>3000</ins>, <ins>3306</ins> et <ins>8086</ins> pour les **Security Groups** de l'**instance EC2**
 
 > [!TIP]
-> Ouvrir le protocole ICMP pour les Security Groups de l'instance EC2 pour les tests
+> Ouvrir le **protocole ICMP** pour les **Security Groups** de l'**instance EC2** pour les tests
 
 > [!WARNING]
-> Mettre le rôle IAM LabInstanceProfile sur l'instance EC2 pour avoir les Credentials sur le Bucket S3 et la base de données RDS :
+> Mettre le **rôle IAM** <ins>LabInstanceProfile</ins> sur l'**instance EC2** pour avoir les **Credentials** sur le **Bucket S3** et la **base de données RDS** :
 >
 > ![plot](./Images/IAM_Role.png)
 
@@ -32,7 +32,7 @@ sudo apt install -y unzip
 
 ## Amazon RDS
 > [!IMPORTANT]
-> Bien respecter les consignes de l'installation d'Amazon RDS :
+> Bien respecter les consignes de l'installation d'**Amazon RDS** :
 > 
 > ![plot](./Images/Amazon_RDS_1.png)
 > 
@@ -41,14 +41,14 @@ sudo apt install -y unzip
 > ![plot](./Images/Amazon_RDS_3.png)
 
 > [!TIP]
-> Gérer la rotation des mots de passe aves AWS Secrets Manager et attribuer la sécurisation de l'accès à la base de données avec un rôle IAM :
+> Gérer la rotation des mots de passe aves **AWS Secrets Manager** et attribuer la sécurisation de l'accès à la base de données avec un **rôle IAM** :
 > 
 > ![plot](./Images/AWS_Secrets_Manager.png)
 > 
 > ![plot](./Images/Amazon_RDS_Modify_Role_IAM.png)
 
 > [!CAUTION]
-> Configurer les Securitys Groups de votre instance EC2 avec l'assistant d'Amazon RDS :
+> Configurer les **Securitys Groups** de votre **instance EC2** avec l'assistant d'**Amazon RDS** :
 > 
 > ![plot](./Images/Amazon_RDS_Configure_EC2_1.png)
 > 
@@ -57,7 +57,7 @@ sudo apt install -y unzip
 > ![plot](./Images/Amazon_RDS_Configure_EC2_3.png)
 
 > [!TIP]
-> Un script (fonctionne avec le *Config.ini*) est fourni pour la création de la base de données avec Amazon RDS, pensez à l'utiliser 😄 :
+> Un script (fonctionne avec le *Config.ini*) est fourni pour la création de la base de données avec **Amazon RDS**, pensez à l'utiliser 😄 :
 > ~~~ shell
 > python CreateTableDB.py
 > ~~~
@@ -70,14 +70,14 @@ sudo apt install -y phpmyadmin
 ~~~
 
 > [!TIP]
-> Choisir Apache2, Yes et pas de mot de passe en appuyant sur Entrée
+> Choisir <ins>Apache2</ins>, <ins>Yes</ins> et <ins>pas de mot de passe</ins> en appuyant sur *Entrée*
 
 ~~~ shell
 sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
 ~~~
 
 > [!IMPORTANT]
-> bind-address : Mettre l'adresse IP publique de votre moulin si vous utilisez une machine virtuelle
+> bind-address : Mettre l'<ins>adresse IP publique</ins> de votre moulin si vous utilisez une machine virtuelle
 
 ~~~ shell
 sudo mysql
@@ -148,7 +148,7 @@ sudo nano /etc/apt/sources.list.d/grafana.list
 
 > [!IMPORTANT]
 > Commenter la ligne n°2 :  
-> deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com stable main  
+> deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com stable main  signed-by=/etc/apt/keyrings/grafana.gpg
 > #deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com beta main
 
 ~~~ shell
