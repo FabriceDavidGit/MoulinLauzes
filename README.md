@@ -148,7 +148,7 @@ sudo nano /etc/apt/sources.list.d/grafana.list
 
 > [!IMPORTANT]
 > Commenter la ligne n°2 :  
-> deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com stable main  signed-by=/etc/apt/keyrings/grafana.gpg
+> deb [ signed-by=/etc/apt/keyrings/grafana.gpg ] https://apt.grafana.com stable main  signed-by=/etc/apt/keyrings/grafana.gpg
 > #deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com beta main
 
 ~~~ shell
