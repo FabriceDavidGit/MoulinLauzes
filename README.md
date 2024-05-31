@@ -57,7 +57,7 @@ sudo apt install -y unzip
 > ![plot](./Images/Amazon_RDS_Configure_EC2_3.png)
 
 > [!TIP]
-> Un script (fonctionne avec le *Config.ini*) est fourni pour la création de la base de données avec **Amazon RDS**, pensez à l'utiliser 😄 :
+> Un **script** (fonctionne avec le *Config.ini*) est fourni pour la création de la base de données avec **Amazon RDS**, pensez à l'utiliser 😄 :
 > ~~~ shell
 > python CreateTableDB.py
 > ~~~
